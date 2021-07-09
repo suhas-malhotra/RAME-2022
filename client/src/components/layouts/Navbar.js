@@ -32,46 +32,55 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto mr-3">
             <li className="nav-item">
-              <a className="nav-link mx-3" href="#">
+              <a className="nav-link mx-2" href="#">
                 Home
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link mx-3" href="#">
+              <a className="nav-link mx-2" href="#">
                 Call for Papers
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link mx-3" href="#">
+              <a className="nav-link mx-2" href="#">
                 Committee
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link mx-3" href="#">
+              <a className="nav-link mx-2" href="#">
                 Speakers
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link mx-3" href="#">
+              <a className="nav-link mx-2" href="#">
                 Registration
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link mx-3" href="#">
+              <a className="nav-link mx-2" href="#">
                 Important Dates
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link mx-3" href="#">
+              <a className="nav-link mx-2" href="#">
                 Contact
               </a>
             </li>
+
+            <form class="form-inline">
+              <input
+                class="form-control"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </form>
           </ul>
         </div>
       </nav>
