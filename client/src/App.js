@@ -1,8 +1,10 @@
+import Navbar from "./components/layouts/Navbar";
 
 function App() {
   return (
     <div>
-     <h1>React Frontend</h1>
+      <Navbar />
+      <h1>React Frontend</h1>
     </div>
   );
 }
