@@ -32,7 +32,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto mr-3">
             <li className="nav-item">
-              <a className="nav-link mx-2" href="#">
+              <a className="nav-link mx-2" href="/home">
                 Home
               </a>
             </li>
@@ -73,9 +73,9 @@ const Navbar = () => {
               </a>
             </li>
 
-            <form class="form-inline">
+            <form className="form-inline">
               <input
-                class="form-control"
+                className="form-control"
                 type="search"
                 placeholder="Search"
                 aria-label="Search"
