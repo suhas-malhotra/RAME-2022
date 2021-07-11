@@ -11,8 +11,10 @@
     .left {
       flex: 0.5;
       overflow: hidden;
-  
+      
+      padding-right: 160px;
       .imgContainer {
+        margin-left: 114px;
         width: 500px;
         height: 500px;
         border-radius: 50%;
@@ -30,6 +32,7 @@
   
           @include mobile{
             height: 50%;
+            width: fit-content;
           }
         }
       }
