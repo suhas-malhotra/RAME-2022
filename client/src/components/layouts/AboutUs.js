@@ -18,20 +18,30 @@ const AboutUs = () => {
             <div class="col-lg-6 venue-info">
               <div class="row justify-content-center">
                 <div class="col-11 col-lg-8">
-                  <h4 class="venue-cap">About HITS</h4>
+                  <h4 class="venue-cap">About DTU</h4>
                   <p style={{ textAlign: "justify" }}>
-                    Hindustan College of Engineering, started in the year 1985,
-                    was conferred the "University Status" by University Grants
-                    Commission (UGC), Government of India, Under Section 3 of
-                    UGC Act 1956 from the academic year 2008-09 and under the
-                    name HITS (Hindustan Institute of Technology and
-                    Science).Today, Hindustan Institute of Technology and
-                    Science is one of the most sought after engineering
-                    Institutions in Tamil Nadu, reputed for its highly qualified
-                    and experienced faculty and excellent infrastructural
-                    facilities for curricular and extracurricular activities,
-                    the University has maintained an enviable academic
-                    excellence right from its inception.{" "}
+                    The institution was set up at historic Kashmere Gate campus
+                    as a follow up of the Wood and Abott Committee of 1938. The
+                    Institute came into existence in the year 1941 to cater the
+                    needs of Indian industries for trained technical manpower
+                    with practical experience and sound theoretical knowledge.
+                    The national diploma awarded by the institution was
+                    recognized as equivalent to degree level for the purposes of
+                    employment. In 1952 the college was affiliated with
+                    University of Delhi and called as Delhi College of
+                    Engineering. The department of Architecture later became the
+                    School of Planning and Architecture, now a Deemed University
+                    and Institution of National importance. The department of
+                    Arts and Sculpture became College of Arts and the
+                    departments of Chemical Technology and Textile Technology
+                    were shifted out en-block to mark beginning of the IIT
+                    Delhi. The erstwhile DCE functioned from its historic
+                    Kashmere Gate Campus for almost 55 years and has shifted in
+                    1996 to its lush green sprawling campus of 164 Acres at
+                    Bawana Road, adjoining Sector-17, Rohini, Delhi-42. Its
+                    shifting to new campus has added the dimension of research
+                    and caused innovations in plenty, which has received high
+                    national and international acclaim. .{" "}
                   </p>
                 </div>
               </div>
@@ -41,46 +51,36 @@ const AboutUs = () => {
                 <div class="col-11 col-lg-8">
                   <h4 class="venue-cap">About the Department</h4>
                   <p style={{ textAlign: "justify" }}>
-                    The Department of Electrical and Electronics Engineering was
-                    established in the year 1992. Electrical and Electronics
-                    Engineering department offers B.Tech in Electrical and
-                    Electronics Engineering, M.Tech in EEE with specialization
-                    in (i) Smart Grid and Electric Vehicle (ii) IOT and Embedded
-                    System, and PhD programs. The department regularly organizes
-                    activities and events to enhance the quality of education
-                    and upgrade the skills of faculty and students. The
-                    department faculty has rich experience in teaching, industry
-                    and research. The department has wide publications in
-                    indexed International journals and conferences.
+                    The Department of Mechanical Engineering, Automobile
+                    Engineering and Production & Industrial Engineering has seen
+                    considerable growth since its inception in 1941. The
+                    department offers UG programme in Mechanical, Production &
+                    Industrial Engineering and Automobile Engineering and PG
+                    programmes on Thermal Engineering, Production Engineering,
+                    Renewable Energy Technology and Computational Design. About
+                    200 research Scholars are presently pursuing their Ph.D.
+                    research work. The department possesses modern laboratories
+                    equipped with latest experimental set-ups, and research
+                    facilities for instrumentation, experimental stress
+                    analysis, strength of materials, fluid mechanics, IC
+                    engines, Automotive Engineering, Robotics, Heat Transfer,
+                    Solar Energy, Flexible Manufacturing System, Computational
+                    Fluid Dynamics supported by Software like View-Flex,
+                    CAD-CAM, etc. The Department has small to medium capacity
+                    state of art bio-diesel processing units. Different species
+                    of non-edible oil such as linseed, Thumba, Jatropha,
+                    cottonseed, waste cooking oil etc. and high FFA oils such as
+                    rice bran, Neem, Mahua etc. have been successfully converted
+                    into bio diesel. We are on the way to make DTU campus a zero
+                    organic waste campus. Special projects are in progress rto
+                    manage e-waste in DTU campus.Dtu has achieved zero liquid
+                    discharge successfully with the installation of STTP plant.
                   </p>
                 </div>
               </div>
             </div>
             <div class="col-lg-6 venue-info2">
               <div class="row justify-content-center"></div>
-            </div>
-            <div class="col-lg-6 venue-info1">
-              <div class="row justify-content-center"></div>
-            </div>
-            <div class="col-lg-6 venue-info">
-              <div class="row justify-content-center">
-                <div class="col-11 col-lg-8">
-                  <h4 class="venue-cap">About the Conference</h4>
-                  <p style={{ textAlign: "justify" }}>
-                    The conference provides engineers and academia with the
-                    opportunity to share experiences in recent development,
-                    current practices and future trends in Smart Grid and
-                    Electric Vehicle. This event will feature a unique platform
-                    for discussing issues and developments in electrical power,
-                    power electronics, E- Vehicle and its associated engineering
-                    fields. It is also a networking opportunity for establishing
-                    international relationships, the exchange of ideas and
-                    experiences amongst the many delegates. SGEV program will
-                    feature keynotes, plenary session and technical paper
-                    presentations.{" "}
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
