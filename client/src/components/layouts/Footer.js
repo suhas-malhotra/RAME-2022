@@ -13,7 +13,7 @@ const Footer = () => {
             <h5 className="font-weight-bold text-uppercase mb-4 text-white">
               RAME
             </h5>
-            <p>
+            <p className="text-white">
               The main objective of RAME-2022 is to provide an opportunity for
               leading academicians, engineers, scientists, researchers,
               industrial professionals and students from around the world to
@@ -119,7 +119,7 @@ const Footer = () => {
       </div>
       <div className="footer-copyright text-center py-3 text-white">
         © 2021 Copyright:
-        <a href="https://rame.dtu.ac.in" className="text-white ">
+        <a href="https://ramedtu.in" className="text-white ">
           {" "}
           RAME
         </a>
