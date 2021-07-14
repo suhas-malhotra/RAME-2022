@@ -6,7 +6,7 @@ import "../../assets/css/footer.css";
 
 const Footer = () => {
   return (
-    <footer className="page-footer font-small bg-danger lighten-3 pt-4 text-white">
+    <footer className="page-footer font-small lighten-3 pt-4 text-white">
       <div className="container text-center text-md-left">
         <div className="row">
           <div className="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 ">

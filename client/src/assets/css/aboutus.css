@@ -21,7 +21,7 @@
 }
 
 .section-header h2 {
-  font-size: 28px;
+  font-size: 38px;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -56,21 +56,21 @@
 }
 
 #venue .venue-info {
-  /*background: url("../img/info2.jpg") top center no-repeat;*/
+  background: url("../img/front3.jpg") top center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 #venue .venue-info1 {
-  background: url("../img/info1.jpg") top center no-repeat;
+  background: url("../img/front1.jpg") top center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 #venue .venue-info2 {
-  background: url("../img/info1.jpg") top center no-repeat;
+  background: url("../img/front2.jpg") top center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 60px;
