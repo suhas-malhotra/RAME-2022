@@ -23,7 +23,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "ityped": "^1.0.3",
-    "node-sass": "^6.0.1"
+    "node-sass": "^6.0.1",
+    "react-grid-gallery": "^0.5.5"
   },
   "devDependencies": {
     "concurrently": "^6.2.0",

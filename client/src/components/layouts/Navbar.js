@@ -44,8 +44,8 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item">
-              <a className="nav-link mx-2" href="#">
-                Committee
+              <a className="nav-link mx-2" href="/gallery">
+                Gallery
               </a>
             </li>
 
