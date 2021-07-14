@@ -78,7 +78,7 @@
 }
 #venue .venue-info:before {
   content: "";
-  background: #FF0000;
+  background: #ff0000;
   position: absolute;
   bottom: 0;
   top: 0;

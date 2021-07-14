@@ -6,10 +6,7 @@ const AboutUs = () => {
   return (
     <div>
       <section id="venue">
-        <div
-          class="container-fluid"
-          data-aos="fade-up"
-        >
+        <div class="container-fluid p-0 m-0" data-aos="fade-up">
           <div class="section-header">
             <h2>About Us</h2>
           </div>
@@ -22,7 +19,7 @@ const AboutUs = () => {
               <div class="row justify-content-center">
                 <div class="col-11 col-lg-8">
                   <h4 class="venue-cap">About HITS</h4>
-                  <p style={{textAlign:"justify"}}>
+                  <p style={{ textAlign: "justify" }}>
                     Hindustan College of Engineering, started in the year 1985,
                     was conferred the "University Status" by University Grants
                     Commission (UGC), Government of India, Under Section 3 of
@@ -43,7 +40,7 @@ const AboutUs = () => {
               <div class="row justify-content-center">
                 <div class="col-11 col-lg-8">
                   <h4 class="venue-cap">About the Department</h4>
-                  <p style={{textAlign:"justify"}}>
+                  <p style={{ textAlign: "justify" }}>
                     The Department of Electrical and Electronics Engineering was
                     established in the year 1992. Electrical and Electronics
                     Engineering department offers B.Tech in Electrical and
@@ -69,7 +66,7 @@ const AboutUs = () => {
               <div class="row justify-content-center">
                 <div class="col-11 col-lg-8">
                   <h4 class="venue-cap">About the Conference</h4>
-                  <p style={{textAlign:"justify"}}>
+                  <p style={{ textAlign: "justify" }}>
                     The conference provides engineers and academia with the
                     opportunity to share experiences in recent development,
                     current practices and future trends in Smart Grid and

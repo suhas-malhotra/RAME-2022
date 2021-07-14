@@ -72,15 +72,6 @@ const Navbar = () => {
                 Contact
               </a>
             </li>
-
-            <form className="form-inline">
-              <input
-                className="form-control"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-            </form>
           </ul>
         </div>
       </nav>

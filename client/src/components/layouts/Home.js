@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 import "../../assets/css/home.scss";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
-import anime from "../../assets/img/down.png";
+
 import naruto from "../../assets/img/RAME2016-1.JPG";
 export default function Intro() {
   const textRef = useRef();
@@ -11,7 +11,7 @@ export default function Intro() {
     init(textRef.current, {
       showCursor: true,
       backDelay: 1500,
-      backSpeed:60,
+      backSpeed: 60,
       strings: ["Organized by the Mechanical Department of DTU"],
     });
   }, []);
@@ -20,7 +20,7 @@ export default function Intro() {
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
-          <img src={naruto} alt="" />
+          <img src={naruto} alt="" className="img-fluid p-4" />
         </div>
       </div>
       <div className="right">
@@ -29,14 +29,10 @@ export default function Intro() {
           <h1>CONFERENCE 2022</h1>
 
           <h2>Tentative Dates To be released soon</h2>
-          <h3>
-             <span ref={textRef}></span>
+          <h3 className="text-center">
+            <span ref={textRef}></span>
           </h3>
         </div>
-        <a href="#">
-          <img src={anime}alt="" />
-        </a>
-        
       </div>
     </div>
   );
