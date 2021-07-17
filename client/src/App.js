@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> be8ed56b00ca8138a53ffba890e354060e0d3fb4
 import React from "react";
 import { HashRouter, Route, Switch } from "react-router-dom";
 

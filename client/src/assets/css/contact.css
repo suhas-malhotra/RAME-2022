@@ -1,91 +1,29 @@
+body{
+  background:#0966d1;
+  }
+  .address-icon i{
+  font-size: 36px;
+  line-height: 32px;
+  }
+  .container{
+    background: hsla(217, 100%, 50%, 1);
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins",sans-serif;
-  }
-  
-p{
-    font-size: 22px;
+background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061FF", endColorstr="#60EFFF", GradientType=1 );
+border-radius: 17px; 
+}
+  .col-lg-12{
     text-align: center;
-    font-family: "Poppins", cursive;
-}
-  .contact-section{
-    background: url('../img/dtu.jpg') no-repeat border-box center;
-    background-size: cover;
-    padding: 40px 0;
-    max-width: 100%;
-    height: auto;
-    margin: auto;
-   background-blend-mode: lighten;
+    font-size: 50px;
   }
-  .contact-section h1{
-    text-align: center;
-    color:darkolivegreen;
+  .row{
+    border-radius: 17px;
   }
-  .border{
-    width: 100px;
-    height: 10px;
-    background:#90EE90;
-    margin: 40px auto;
+  .row{
+    border-radius: 17px;
   }
-  
-  .contact-form{
-    width: 80%;
-    margin: auto;
-    padding: 0 10px;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  
-  .contact-form-text{
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-    margin: 16px 0;
-    border: 0;
-    background: rgb(238, 16, 0);
-    padding: 20px 40px;
-    outline: none;
-    color: white;
-    transition: 0.5s;
-  }
-  .contact-form-text:focus{
-    box-shadow: 0 0 10px 4px #34495e;
-  }
-  textarea.contact-form-text{
-    resize: none;
-    height: 120px;
-  }
-  .contact-form-btn{
-    float: right;
-    border: 0;
-    background: green;
-    color: #fff;
-    padding: 12px 50px;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: 0.5s;
-  }
-  .contact-form-btn:hover{
-    background: #1ee0a0;
-  }
-  .bg{
-    width: 100%;
-    position: absolute;
-    z-index: -1;
-    opacity: 0.6;
-}
-@media only screen and (max-width:1064px) and (min-width:320px) {
-    .contact-section{
-        width: 100%;
-        height: auto;
-    }
-    .contact-form-text{
-        width: 80%;
-    }
-}
