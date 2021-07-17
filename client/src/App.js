@@ -11,12 +11,10 @@ import ImportantDates from "./pages/importantDates/App";
 import Contact from "./pages/contact/App";
 import Speakers from "./pages/speakers/App";
 import Gallery from "./pages/gallery/App";
-
+import Committee from "./pages/committee/App";
 function App() {
-  
   return (
     <div>
-      
       <BrowserRouter>
         <Switch>
           <Route path="/gallery">
@@ -33,6 +31,9 @@ function App() {
           </Route>
           <Route path="/contact-us">
             <Contact />
+          </Route>
+          <Route path="/committee">
+            <Committee />
           </Route>
           <Route path="/">
             <Home />

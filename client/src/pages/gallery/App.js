@@ -14,24 +14,26 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <MovingHeader/>
-      <div className="buttons">
-        <button
-          onClick={() => {
-            setImages(LASTYEAR);
-          }}
-        >
-          RAME 2020
-        </button>
-        <button
-          onClick={() => {
-            setImages(SIXTEEN);
-          }}
-        >
-          RAME 2016
-        </button>
+      <MovingHeader />
+      <div className="container-fluid ">
+        <div className="buttons">
+          <button
+            onClick={() => {
+              setImages(LASTYEAR);
+            }}
+          >
+            RAME 2020
+          </button>
+          <button
+            onClick={() => {
+              setImages(SIXTEEN);
+            }}
+          >
+            RAME 2016
+          </button>
+        </div>
+        <Gallery images={images} />
       </div>
-      <Gallery images={images} />
     </div>
   );
 };
