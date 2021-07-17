@@ -12,7 +12,9 @@ export default function Intro() {
       showCursor: true,
       backDelay: 1500,
       backSpeed: 60,
-      strings: ["Organized by the Mechanical Department of DTU"],
+      strings: [
+        "Organized by the Department of Mechanical Engineering of Delhi Technological University",
+      ],
     });
   }, []);
 
@@ -25,10 +27,14 @@ export default function Intro() {
       </div>
       <div className="right">
         <div className="wrapper">
-          <h1>RAME</h1>
-          <h1>CONFERENCE 2022</h1>
+          <h1>
+            3<sup>rd</sup>
+          </h1>
+          <h1>International Conference</h1>
+          <h1>on</h1>
+          <h1>Recent Advances in Mechanical Engineering (RAME)</h1>
 
-          <h2>Tentative Dates To be released soon</h2>
+          <h2>8 July - 9 july'22</h2>
           <h3 className="text-center">
             <span ref={textRef}></span>
           </h3>

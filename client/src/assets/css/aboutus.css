@@ -15,7 +15,7 @@
   display: block;
   width: 60px;
   height: 5px;
-  background: #87d499;
+  background: #37a356;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -78,7 +78,7 @@
 }
 #venue .venue-info:before {
   content: "";
-  background: #ff0000;
+  background: #ffaa33;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -89,7 +89,7 @@
 #venue .venue-info h3 {
   font-size: 36px;
   font-weight: 700;
-  color: #fff;
+  color: black;
 }
 
 @media (max-width: 574px) {
@@ -99,7 +99,7 @@
 }
 
 #venue .venue-info p {
-  color: #fff;
+  color: bl;
   margin-bottom: 0;
 }
 
@@ -133,9 +133,10 @@
   transform: scale(1.1);
 }
 #venue .venue-cap {
-  color: #fff;
+  color: black;
   font-weight: 600;
-  border-bottom: 5px solid #87d499;
+
+  border-bottom: 5px solid #37a356;
   padding-bottom: 10px;
   width: fit-content;
   margin-top: -19px;

@@ -40,9 +40,25 @@ const Footer = () => {
               </li>
               <li>
                 <p>
-                  <a href="#!" className="footer-link">
+                  <a href="/" className="footer-link">
                     {" "}
-                    Rame
+                    RAME
+                  </a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="/important-dates" className="footer-link">
+                    {" "}
+                   Important Dates
+                  </a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="/contact-us" className="footer-link">
+                    {" "}
+                    Contact Us
                   </a>
                 </p>
               </li>
@@ -63,7 +79,8 @@ const Footer = () => {
                     name="business-outline"
                     style={{ color: "white" }}
                   ></ion-icon>{" "}
-                  New York, NY 10012, US
+                  Bawana Rd, Delhi Technological University, Shahbad Daulatpur
+                  Village, Rohini, Delhi, 110042
                 </p>
               </li>
               <li>
@@ -76,24 +93,7 @@ const Footer = () => {
                   info@example.com
                 </p>
               </li>
-              <li>
-                <p>
-                  <ion-icon
-                    name="call-outline"
-                    style={{ color: "white" }}
-                  ></ion-icon>{" "}
-                  + 01 234 567 88
-                </p>
-              </li>
-              <li>
-                <p>
-                  <ion-icon
-                    name="call-outline"
-                    style={{ color: "white" }}
-                  ></ion-icon>{" "}
-                  + 01 234 567 89
-                </p>
-              </li>
+             
             </ul>
           </div>
 
