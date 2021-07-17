@@ -22,8 +22,12 @@
   "homepage": "https://github.com/suhas-malhotra/RAME-2022#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "google-maps-react": "^2.0.6",
     "ityped": "^1.0.3",
     "node-sass": "^6.0.1",
+    "react-geocode": "^0.2.3",
+    "react-google-autocomplete": "^2.4.0",
+    "react-google-maps": "^9.4.5",
     "react-grid-gallery": "^0.5.5"
   },
   "devDependencies": {
