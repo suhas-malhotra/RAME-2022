@@ -1,9 +1,5 @@
-import Navbar from "./components/layouts/Navbar";
-import AboutUs from "./components/layouts/AboutUs";
-import Footer from "./components/layouts/Footer";
-import MovingHeader from "./components/layouts/MovingHeader";
 import React from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 
 import Home from "./pages/home/App";
 import CallForPapers from "./pages/callForPapers/App";
@@ -12,10 +8,11 @@ import Contact from "./pages/contact/App";
 import Speakers from "./pages/speakers/App";
 import Gallery from "./pages/gallery/App";
 import Committee from "./pages/committee/App";
-function App() {
+
+const App = () => {
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <Switch>
           <Route path="/gallery">
             <Gallery />
@@ -39,9 +36,9 @@ function App() {
             <Home />
           </Route>
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
-}
+};
 
 export default App;

@@ -1,4 +1,7 @@
+import { Link } from "react-router-dom";
+
 /* eslint-disable jsx-a11y/anchor-is-valid */
+
 import Logo from "../../assets/img/logo.png";
 
 // EXTERNAL CSS
@@ -31,44 +34,44 @@ const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto mr-3">
           <li className="nav-item">
-            <a className="nav-link mx-2" href="/">
+            <Link className="nav-link mx-2" to="/">
               Home
-            </a>
+            </Link>
           </li>
 
           <li className="nav-item">
-            <a className="nav-link mx-2" href="/call-for-papers">
+            <Link className="nav-link mx-2" to="/call-for-papers">
               Call for Papers
-            </a>
+            </Link>
           </li>
 
           <li className="nav-item">
-            <a className="nav-link mx-2" href="/gallery">
+            <Link to="/gallery" className="nav-link mx-2">
               Gallery
-            </a>
+            </Link>
           </li>
 
           <li className="nav-item">
-            <a className="nav-link mx-2" href="/speakers">
+            <Link className="nav-link mx-2" to="/speakers">
               Speakers
-            </a>
+            </Link>
           </li>
 
           <li className="nav-item">
-            <a className="nav-link mx-2" href="/important-dates">
+            <Link className="nav-link mx-2" to="/important-dates">
               Important Dates
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link mx-2" href="/committee">
+            <Link className="nav-link mx-2" to="/committee">
               Committee
-            </a>
+            </Link>
           </li>
 
           <li className="nav-item">
-            <a className="nav-link mx-2" href="/contact-us">
+            <Link className="nav-link mx-2" to="/contact-us">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
