@@ -31,46 +31,51 @@ const Navbar = () => {
         <ion-icon name="menu" size="large"></ion-icon>
       </button>
 
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ml-auto mr-3">
-            <li className="nav-item">
-              <Link className="nav-link mx-2" to="/">
-                Home
-              </Link>
-            </li>
+      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul className="navbar-nav ml-auto mr-3">
+          <li className="nav-item">
+            <Link className="nav-link mx-2" to="/">
+              Home
+            </Link>
+          </li>
 
-            <li className="nav-item">
-              <Link className="nav-link mx-2" to="/call-for-papers">
-                Call for Papers
-              </Link>
-            </li>
+          <li className="nav-item">
+            <Link className="nav-link mx-2" to="/call-for-papers">
+              Call for Papers
+            </Link>
+          </li>
 
-            <li className="nav-item">
-              <Link to="/gallery" className="nav-link mx-2">
-                Gallery
-              </Link>
-            </li>
+          <li className="nav-item">
+            <Link to="/gallery" className="nav-link mx-2">
+              Gallery
+            </Link>
+          </li>
 
-            <li className="nav-item">
-              <Link className="nav-link mx-2" to="/speakers">
-                Speakers
-              </Link>
-            </li>
+          <li className="nav-item">
+            <Link className="nav-link mx-2" to="/speakers">
+              Speakers
+            </Link>
+          </li>
 
-            <li className="nav-item">
-              <Link className="nav-link mx-2" to="/important-dates">
-                Important Dates
-              </Link>
-            </li>
+          <li className="nav-item">
+            <Link className="nav-link mx-2" to="/important-dates">
+              Important Dates
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link mx-2" to="/committee">
+              Committee
+            </Link>
+          </li>
 
-            <li className="nav-item">
-              <Link className="nav-link mx-2" to="/contact-us">
-                Contact
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
+          <li className="nav-item">
+            <Link className="nav-link mx-2" to="/contact-us">
+              Contact
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </nav>
   );
 };
 export default Navbar;
