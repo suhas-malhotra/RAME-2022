@@ -1,7 +1,3 @@
-import Navbar from "./components/layouts/Navbar";
-import AboutUs from "./components/layouts/AboutUs";
-import Footer from "./components/layouts/Footer";
-import MovingHeader from "./components/layouts/MovingHeader";
 import React from "react";
 import { HashRouter, Route, Switch } from "react-router-dom";
 
