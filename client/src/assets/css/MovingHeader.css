@@ -1,6 +1,8 @@
-marquee{
-    height: 35px;
-    display: flex;
-    justify-content:flex-start;
-    align-items:center;
+marquee {
+  height: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }

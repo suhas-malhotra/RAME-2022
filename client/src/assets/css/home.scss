@@ -52,7 +52,7 @@
       h2,
       h1 {
         font-size: 50px;
-        margin: 10px 0px;
+        margin: 0px 0px;
         text-align: center;
 
         @include mobile {
@@ -60,21 +60,22 @@
         }
       }
       h1 {
-        font-size: 59px;
+        font-size: 50px;
       }
       h2 {
-        font-size: 50px;
+        margin-top: 10px;
+        font-size: 30px;
       }
       h3 {
         font-size: 34px;
-        
+
         @include mobile {
           font-size: 20px;
         }
 
         span {
           font-size: 30px;
-          color: rgb(192, 59, 93);
+          color: #37a356;
           text-align: center;
         }
 

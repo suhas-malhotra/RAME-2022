@@ -1,7 +1,7 @@
 import img1 from "../../assets/img/2016/1.jpg";
 import img2 from "../../assets/img/2016/2.jpg";
 import img3 from "../../assets/img/2016/3.jpg";
-import img4 from "../../assets/img/2016/4.jpg";
+
 import img5 from "../../assets/img/2016/5.JPG";
 import img6 from "../../assets/img/2016/6.JPG";
 import img7 from "../../assets/img/2016/7.JPG";
@@ -11,20 +11,20 @@ import img10 from "../../assets/img/2016/10.JPG";
 import img11 from "../../assets/img/2016/11.JPG";
 import img12 from "../../assets/img/2016/12.JPG";
 import img13 from "../../assets/img/2016/13.JPG";
-import img14 from "../../assets/img/2016/14.JPG";
+
 import img15 from "../../assets/img/2016/15.JPG";
 import img16 from "../../assets/img/2016/16.JPG";
 import img17 from "../../assets/img/2016/17.JPG";
 import img18 from "../../assets/img/2016/18.JPG";
 import img19 from "../../assets/img/2016/19.JPG";
 import img20 from "../../assets/img/2016/20.JPG";
-import img21 from "../../assets/img/2016/21.JPG";
+
 import img22 from "../../assets/img/2016/22.JPG";
 import img23 from "../../assets/img/2016/23.JPG";
 import img24 from "../../assets/img/2016/24.JPG";
 import img25 from "../../assets/img/2016/25.JPG";
 import img26 from "../../assets/img/2016/26.JPG";
-import img27 from "../../assets/img/2016/27.JPG";
+
 import img28 from "../../assets/img/2016/28.JPG";
 import img29 from "../../assets/img/2016/29.JPG";
 import img30 from "../../assets/img/2016/30.JPG";
@@ -53,12 +53,7 @@ const IMAGES = [
     thumbnailWidth: 320,
     thumbnailHeight: 212,
   },
-  {
-    src: img4,
-    thumbnail: img4,
-    thumbnailWidth: 320,
-    thumbnailHeight: 212,
-  },
+
   {
     src: img5,
     thumbnail: img5,
@@ -113,12 +108,7 @@ const IMAGES = [
     thumbnailWidth: 320,
     thumbnailHeight: 212,
   },
-  {
-    src: img14,
-    thumbnail: img14,
-    thumbnailWidth: 320,
-    thumbnailHeight: 212,
-  },
+
   {
     src: img15,
     thumbnail: img15,
@@ -155,12 +145,7 @@ const IMAGES = [
     thumbnailWidth: 320,
     thumbnailHeight: 212,
   },
-  {
-    src: img21,
-    thumbnail: img21,
-    thumbnailWidth: 320,
-    thumbnailHeight: 212,
-  },
+
   {
     src: img22,
     thumbnail: img22,
@@ -191,12 +176,7 @@ const IMAGES = [
     thumbnailWidth: 320,
     thumbnailHeight: 212,
   },
-  {
-    src: img27,
-    thumbnail: img27,
-    thumbnailWidth: 250,
-    thumbnailHeight: 212,
-  },
+
   {
     src: img28,
     thumbnail: img28,

@@ -18,7 +18,9 @@ const AboutUs = () => {
             <div class="col-lg-6 venue-info">
               <div class="row justify-content-center">
                 <div class="col-11 col-lg-8">
-                  <h4 class="venue-cap">About DTU</h4>
+                  <h4 class="venue-cap">
+                    About Delhi Technological University
+                  </h4>
                   <p style={{ textAlign: "justify" }}>
                     The institution was set up at historic Kashmere Gate campus
                     as a follow up of the Wood and Abott Committee of 1938. The
@@ -49,7 +51,7 @@ const AboutUs = () => {
             <div class="col-lg-6 venue-info">
               <div class="row justify-content-center">
                 <div class="col-11 col-lg-8">
-                  <h4 class="venue-cap">About the Department</h4>
+                  <h4 class="venue-cap" >About Mechanical Department</h4>
                   <p style={{ textAlign: "justify" }}>
                     The Department of Mechanical Engineering, Automobile
                     Engineering and Production & Industrial Engineering has seen
@@ -73,7 +75,7 @@ const AboutUs = () => {
                     rice bran, Neem, Mahua etc. have been successfully converted
                     into bio diesel. We are on the way to make DTU campus a zero
                     organic waste campus. Special projects are in progress rto
-                    manage e-waste in DTU campus.Dtu has achieved zero liquid
+                    manage e-waste in DTU campus.DTU has achieved zero liquid
                     discharge successfully with the installation of STTP plant.
                   </p>
                 </div>
