@@ -57,3 +57,28 @@ ion-icon {
 .navbar form input::placeholder {
   color: red;
 }
+
+.section-header {
+  margin-bottom: 50px;
+  position: relative;
+  padding-bottom: 13px;
+}
+
+.section-header::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 5px;
+  background: #37a356;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.section-header h2 {
+  font-size: 38px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+}

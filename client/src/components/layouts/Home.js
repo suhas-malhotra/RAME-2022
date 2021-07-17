@@ -3,7 +3,6 @@ import "../../assets/css/home.scss";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
 
-import naruto from "../../assets/img/RAME2016-1.JPG";
 export default function Intro() {
   const textRef = useRef();
 

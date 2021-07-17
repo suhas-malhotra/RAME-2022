@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> be8ed56b00ca8138a53ffba890e354060e0d3fb4
 import React from "react";
 import { HashRouter, Route, Switch } from "react-router-dom";
 
@@ -8,12 +11,11 @@ import ImportantDates from "./pages/importantDates/App";
 import Contact from "./pages/contact/App";
 import Speakers from "./pages/speakers/App";
 import Gallery from "./pages/gallery/App";
+import Committee from "./pages/committee/App";
 
-function App() {
-  
+const App = () => {
   return (
     <div>
-      
       <HashRouter>
         <Switch>
           <Route path="/gallery">
@@ -31,6 +33,9 @@ function App() {
           <Route path="/contact-us">
             <Contact />
           </Route>
+          <Route path="/committee">
+            <Committee />
+          </Route>
           <Route path="/">
             <Home />
           </Route>
@@ -38,6 +43,6 @@ function App() {
       </HashRouter>
     </div>
   );
-}
+};
 
 export default App;
