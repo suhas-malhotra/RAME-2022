@@ -4,6 +4,8 @@ import "./App.css";
 import Navbar from "../../components/layouts/Navbar";
 import MovingHeader from "../../components/layouts/MovingHeader";
 
+import Footer from "../../components/layouts/Footer";
+
 const App = () => {
   return (
     <div>
@@ -170,6 +172,7 @@ const App = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

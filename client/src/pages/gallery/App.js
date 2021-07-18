@@ -7,6 +7,7 @@ import "./App.css";
 import LASTYEAR from "../../components/layouts/2020imagesdata";
 import SIXTEEN from "../../components/layouts/2016imagesdata";
 
+
 import MovingHeader from "../../components/layouts/MovingHeader";
 const App = () => {
   const [images, setImages] = useState(LASTYEAR);

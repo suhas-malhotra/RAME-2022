@@ -84,7 +84,11 @@ const Contact = () => {
                         onChange={(e) => setMessage(e.target.value)}
                       ></textarea>
                     </div>
-                    <button type="submit" class="btn btn-danger mb-4">
+                    <button
+                      type="submit"
+                      class="btn mb-4"
+                      style={{ backgroundColor: "lightblue" }}
+                    >
                       Submit
                     </button>
                   </form>
