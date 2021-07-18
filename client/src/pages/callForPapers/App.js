@@ -13,8 +13,13 @@ const App = () => {
       <Navbar />
       <MovingHeader />
       <div className="container-fluid">
-        <div className="container" >
-          <div className="section-header">
+        <div className="container">
+          <div
+            className="section-header"
+            style={{
+              marginTop: "20px",
+            }}
+          >
             <h2>Call For Paper</h2>
           </div>
           <div className="row">
@@ -51,7 +56,9 @@ const App = () => {
               </p>
             </div>
             <div className="col-12">
-              <div className="section-header">
+              <div className="section-header"  style={{
+              marginTop: "10px",
+            }}>
                 <h2>Participation</h2>
               </div>
               <p className="call-for-paper-paragraph">
@@ -79,7 +86,9 @@ const App = () => {
           </div>
           <div className="row">
             <div className="col-12">
-              <table className="w-100 mb-5 register-table">
+              <table className="w-100 mb-5 register-table"   style={{
+              marginTop: "20px",
+            }}>
                 <tr style={{ color: "black" }}>
                   <th>Categories</th>
                   <th>International</th>

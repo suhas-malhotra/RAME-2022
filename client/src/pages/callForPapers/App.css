@@ -1,7 +1,9 @@
 .call-for-paper-paragraph {
-  color: #2a9df4;
+  color: black;
   font-size: 17px;
   font-weight: 600;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .register-table {
   font-size: 20px;

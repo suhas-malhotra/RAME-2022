@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
 import Logo from "../../assets/img/logo.png";
+import DTULogo from "../../assets/img/dtuLogo.jpeg";
 
 // EXTERNAL CSS
 import "../../assets/css/navbar.css";
@@ -13,7 +14,7 @@ const Navbar = () => {
       <a class="navbar-brand" href="#">
         <img
           src={Logo}
-          width="80"
+          width="60"
           height="60"
           class="d-inline-block align-top"
           alt="Rame'22"
@@ -32,7 +33,7 @@ const Navbar = () => {
       </button>
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav ml-auto mr-3">
+        <ul className="navbar-nav mx-auto mr-3">
           <li className="nav-item">
             <Link className="nav-link mx-2" to="/">
               Home
@@ -74,6 +75,13 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
+        <img
+          src={DTULogo}
+          width="65"
+          height="60"
+          class="d-inline-block align-top"
+          alt="Rame'22"
+        />
       </div>
     </nav>
   );

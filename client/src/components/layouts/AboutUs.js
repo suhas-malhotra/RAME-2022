@@ -1,8 +1,9 @@
 import React from "react";
 
 import "../../assets/css/aboutus.css";
-import front1 from "../../assets/img/front1.jpg";
+import front1 from "../../assets/img/vc.png";
 import front2 from "../../assets/img/front2.jpg";
+import front3 from "../../assets/img/patron.png";
 import front4 from "../../assets/img/front4.jpg";
 
 const AboutUs = () => {
@@ -16,7 +17,7 @@ const AboutUs = () => {
           <h3 class="venue-cap">About Delhi Technological University</h3>
           <p className="text-justify">
             <img
-              src={front1}
+              src={front4}
               style={{
                 float: "left",
                 width: "30%",
@@ -54,7 +55,7 @@ const AboutUs = () => {
           </p>
         </div>
         <div class="profile-wrapper wow fadeInRight" data-wow-delay="0.3s">
-          <h3 class="venue-cap">About Mechanical Department</h3>
+          <h3 class="venue-cap">About Mechanical Engineering Department</h3>
           <p className="text-justify">
             <img
               src={front2}
@@ -68,21 +69,19 @@ const AboutUs = () => {
               className="right_img"
               alt="front1"
             />
-            The Department of Mechanical Engineering, Automobile Engineering and
-            Production & Industrial Engineering has seen considerable growth
-            since its inception in 1941. The department offers UG programme in
-            Mechanical, Production & Industrial Engineering and Automobile
-            Engineering and PG programmes on Thermal Engineering, Production
-            Engineering, Renewable Energy Technology and Computational Design.
-            About 200 research Scholars are presently pursuing their Ph.D.
-            research work.
+            The Department of Mechanical, Production & Industrial, and
+            Automobile Engineering has seen considerable growth since its
+            inception in 1941. The department offers UG programme in Mechanical,
+            Production & Industrial Engineering and Automobile Engineering and
+            PG programmes on Thermal Engineering, Production Engineering. About 200
+            research Scholars are presently pursuing their Ph.D. research work.
           </p>
           <p class="text-justify">
             The department possesses modern laboratories equipped with latest
             experimental set-ups, and research facilities for instrumentation,
             experimental stress analysis, strength of materials, fluid
             mechanics, IC engines, Automotive Engineering, Robotics, Heat
-            Transfer, Solar Energy, Flexible Manufacturing System, Computational
+            Transfer, Green Energy, Flexible Manufacturing System, Computational
             Fluid Dynamics supported by Software like View-Flex, CAD-CAM, etc.
             The Department has small to medium capacity state of art bio-diesel
             processing units. Different species of non-edible oil such as
@@ -98,7 +97,7 @@ const AboutUs = () => {
           <h3 class="venue-cap">Chief Patron</h3>
           <p className="text-justify">
             <img
-              src={front4}
+              src={front1}
               style={{
                 float: "left",
                 width: "30%",
@@ -121,14 +120,35 @@ const AboutUs = () => {
             Sayajirao University of Baroda, which he continued upto December 29,
             2014.
           </p>
-          <p class="text-justify">
-            He has also supervised 23 Ph.Ds in the area of Software Engineering.
-            He is listed as the third best amongst the most productive Indian
-            authors for participating in Software Engineering Research reported
-            in "Indian Computer Science Research Output during 1999-2008,
-            Qualitative Analysis" Journal of Library & Information Technology,
-            November 2010. He has more than 250 publications in International
-            and National Journals/Conferences.
+        </div>
+
+        <div class="profile-wrapper wow fadeInRight" data-wow-delay="0.3s">
+          <h3 class="venue-cap">Patron</h3>
+          <p className="text-justify">
+            <img
+              src={front3}
+              style={{
+                float: "left",
+                width: "30%",
+                border: "5px solid #d8e6ea",
+                padding: "5px",
+                marginRight: "2%",
+                height: "250px",
+              }}
+              className="right_img"
+              alt="front1"
+            />
+            Prof. Yogesh Singh is the third Vice Chancellor of Delhi
+            Technological University. He is a member of National Assessment and
+            Accreditation Council (NAAC). He is also an independent director of
+            GSPL. He has worked as Chairman, Central Regional Committee, AICTE,
+            Bhopal. : He has been the fifth Director of Netaji Subhas Institute
+            of Technology, Delhi (December 31, 2014 to July 24, 2017) and
+            sixteenth Vice Chancellor of Maharaja Sayajirao University of
+            Baroda, Gujarat (July 07, 2011 to December 29, 2014). Government of
+            Gujarat had given him the second term of Vice Chancellor, Maharaja
+            Sayajirao University of Baroda, which he continued upto December 29,
+            2014.
           </p>
         </div>
       </section>

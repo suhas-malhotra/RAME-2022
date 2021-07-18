@@ -118,11 +118,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-copyright text-center py-3 text-white">
-        © 2021 Copyright:
-        <a href="https://ramedtu.in" className="text-white ">
-          {" "}
-          RAME
-        </a>
+        Made by the students of Delhi Technological University
       </div>
     </footer>
   );

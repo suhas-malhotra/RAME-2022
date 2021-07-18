@@ -12,24 +12,25 @@ export default function Intro() {
       backDelay: 1500,
       backSpeed: 60,
       strings: [
-        "Organized by the Department of Mechanical Engineering of Delhi Technological University",
+        "Organized by Department of Mechanical Engineering , Delhi Technological University",
       ],
     });
   }, []);
 
   return (
     <div className="intro" id="intro">
-        <div className="wrapper">
-          <h1>
-            3<sup>rd</sup>
-         <h1> International Conference</h1>
-        <h1>  on </h1>
-            Recent Advances in Mechanical Engineering </h1>
-            <h1>(RAME-2022)</h1>
-          <h2>8 July - 9 july'22</h2>
-          <h2 className="text-center">
-            <span ref={textRef}></span>
-          </h2>
+      <div className="wrapper">
+        <h1>
+          {" "}
+          3<sup>rd</sup> International Conference
+        </h1>
+        <h1> on </h1>
+        <h1> Recent Advances in Mechanical Engineering </h1>
+        <h1>(RAME-2022)</h1>
+        <h2>8 - 9 July 2022</h2>
+        <h2 className="text-center">
+          <span ref={textRef}></span>
+        </h2>
       </div>
     </div>
   );

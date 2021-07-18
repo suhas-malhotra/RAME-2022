@@ -20,11 +20,11 @@ ion-icon {
   font-family: "Poppins", sans-serif;
   font-weight: bolder;
   font-size: 20px;
-  color: #2a9df4;
+  color: #2081c3;
 }
 
 .nav-link:hover {
-  color: darkgreen;
+  color: #ffc000;
 }
 
 .nav-link::before {
@@ -34,7 +34,7 @@ ion-icon {
   left: 0;
   right: 0;
   height: 2px;
-  background-color: darkgreen;
+  background-color: #ffc000;
   transform-origin: bottom right;
   transform: scaleX(0);
   transition: transform 0.5s ease;
@@ -49,6 +49,7 @@ ion-icon {
   margin-bottom: 50px;
   position: relative;
   padding-bottom: 13px;
+  color: black;
 }
 
 .section-header::before {
@@ -57,7 +58,7 @@ ion-icon {
   display: block;
   width: 60px;
   height: 5px;
-  background: #2a9df4;
+  background: #2081c3;
   bottom: 0;
   left: calc(50% - 25px);
 }

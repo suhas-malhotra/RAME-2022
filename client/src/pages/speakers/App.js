@@ -20,7 +20,7 @@ const App = () => {
             </div>
           </div>
           <div className="row justify-content-center pb-5">
-            <div className="card col-md-3 mt-100">
+            <div className="card col-md-3 ">
               <div className="card-content">
                 <div className="card-body p-0">
                   <div className="profile">
@@ -48,7 +48,7 @@ const App = () => {
                 </div>
               </div>
             </div>
-            <div className="card col-md-3 mt-100">
+            <div className="card col-md-3">
               <div className="card-content">
                 <div className="card-body p-0">
                   <div className="profile">
@@ -76,7 +76,7 @@ const App = () => {
                 </div>
               </div>
             </div>
-            <div className="card col-md-3 mt-100">
+            <div className="card col-md-3">
               <div className="card-content">
                 <div className="card-body p-0">
                   <div className="profile">
