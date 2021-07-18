@@ -1,29 +1,10 @@
-body{
-  background:#0966d1;
-  }
-  .address-icon i{
-  font-size: 36px;
-  line-height: 32px;
-  }
-  .container{
-    background: hsla(217, 100%, 50%, 1);
 
-background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
-
-background: -moz-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
-
-background: -webkit-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
-
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061FF", endColorstr="#60EFFF", GradientType=1 );
-border-radius: 17px; 
+.col-lg-12 {
+  font-size: 50px;
 }
-  .col-lg-12{
-    text-align: center;
-    font-size: 50px;
-  }
-  .row{
-    border-radius: 17px;
-  }
-  .row{
-    border-radius: 17px;
-  }
+.row {
+  border-radius: 17px;
+}
+.row {
+  border-radius: 17px;
+}

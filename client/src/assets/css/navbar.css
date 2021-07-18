@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 800px) {
   .navbar img {
-    width: 50px;
+    width: 50px !important;
     height: 50px;
   }
 }
@@ -20,7 +20,7 @@ ion-icon {
   font-family: "Poppins", sans-serif;
   font-weight: bolder;
   font-size: 20px;
-  color: #37a356;
+  color: #2a9df4;
 }
 
 .nav-link:hover {
@@ -45,19 +45,6 @@ ion-icon {
   transform: scaleX(1);
 }
 
-.navbar form input {
-  border: 2px solid red;
-  height: 30px;
-}
-.navbar form input:focus {
-  outline-width: 0;
-  border: 2px solid red !important;
-  color: red;
-}
-.navbar form input::placeholder {
-  color: red;
-}
-
 .section-header {
   margin-bottom: 50px;
   position: relative;
@@ -70,7 +57,7 @@ ion-icon {
   display: block;
   width: 60px;
   height: 5px;
-  background: #37a356;
+  background: #2a9df4;
   bottom: 0;
   left: calc(50% - 25px);
 }

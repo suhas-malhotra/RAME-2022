@@ -2,6 +2,7 @@
 // eslint-disable-next-line jsx-a11y/anchor-has-content
 
 // EXTERNAL CSS
+import { Link } from "react-router-dom";
 import "../../assets/css/footer.css";
 
 const Footer = () => {
@@ -32,34 +33,34 @@ const Footer = () => {
             <ul className="list-unstyled">
               <li>
                 <p>
-                  <a href="#!" className="footer-link">
+                  <Link to="/" className="footer-link">
                     {" "}
                     DTU
-                  </a>
+                  </Link>
                 </p>
               </li>
               <li>
                 <p>
-                  <a href="/" className="footer-link">
+                  <Link to="/" className="footer-link">
                     {" "}
                     RAME
-                  </a>
+                  </Link>
                 </p>
               </li>
               <li>
                 <p>
-                  <a href="/important-dates" className="footer-link">
+                  <Link to="/important-dates" className="footer-link">
                     {" "}
-                   Important Dates
-                  </a>
+                    Important Dates
+                  </Link>
                 </p>
               </li>
               <li>
                 <p>
-                  <a href="/contact-us" className="footer-link">
+                  <Link to="/contact-us" className="footer-link">
                     {" "}
                     Contact Us
-                  </a>
+                  </Link>
                 </p>
               </li>
             </ul>
@@ -93,7 +94,6 @@ const Footer = () => {
                   info@example.com
                 </p>
               </li>
-             
             </ul>
           </div>
 
