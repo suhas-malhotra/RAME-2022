@@ -10,6 +10,9 @@
   font-weight: 500;
   border-bottom: 1px solid #b1b1b1;
 }
+.event-description {
+  color: white;
+}
 
 .event-container .event {
   box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.4);
@@ -50,7 +53,8 @@
 .event .event-right h3.event-title {
   font-size: 24px;
   margin: 24px 0 10px 0;
-  color: darkgreen;
+  color: white;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
