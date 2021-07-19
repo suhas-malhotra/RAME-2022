@@ -5,12 +5,9 @@ import img11 from "../../assets/img/2020/11.jpg";
 
 import img13 from "../../assets/img/2020/13.jpg";
 
-import img19 from "../../assets/img/2020/19.jpg";
-
 import img27 from "../../assets/img/2020/27.jpg";
 import img28 from "../../assets/img/2020/28.jpg";
 
-import img32 from "../../assets/img/2020/32.jpg";
 import img33 from "../../assets/img/2020/33.jpg";
 
 const IMAGES = [
@@ -41,12 +38,6 @@ const IMAGES = [
     thumbnailHeight: 212,
   },
 
-  {
-    src: img19,
-    thumbnail: img19,
-    thumbnailWidth: 320,
-    thumbnailHeight: 212,
-  },
 
   {
     src: img27,
@@ -58,13 +49,6 @@ const IMAGES = [
     src: img28,
     thumbnail: img28,
     thumbnailWidth: 320,
-    thumbnailHeight: 212,
-  },
-
-  {
-    src: img32,
-    thumbnail: img32,
-    thumbnailWidth: 290,
     thumbnailHeight: 212,
   },
   {

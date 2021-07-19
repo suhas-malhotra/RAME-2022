@@ -1,10 +1,9 @@
-
 import React from "react";
 import { HashRouter, Route, Switch } from "react-router-dom";
 
 import Home from "./pages/home/App";
 import CallForPapers from "./pages/callForPapers/App";
-import ImportantDates from "./pages/importantDates/App";
+import Publication from "./pages/publications/App";
 import Contact from "./pages/contact/App";
 import Speakers from "./pages/speakers/App";
 import Gallery from "./pages/gallery/App";
@@ -24,8 +23,8 @@ const App = () => {
           <Route path="/speakers">
             <Speakers />
           </Route>
-          <Route path="/important-dates">
-            <ImportantDates />
+          <Route path="/publication">
+            <Publication />
           </Route>
           <Route path="/contact-us">
             <Contact />

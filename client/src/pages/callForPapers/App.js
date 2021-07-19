@@ -14,51 +14,31 @@ const App = () => {
       <MovingHeader />
       <div className="container-fluid">
         <div className="container">
-          <div
-            className="section-header"
-            style={{
-              marginTop: "20px",
-            }}
-          >
-            <h2>Call For Paper</h2>
-          </div>
           <div className="row">
-            <div className="col-12">
-              <p className="call-for-paper-paragraph">
-                RAME-2022 invites prospective authors to submit a full paper
-                with minimum six -ten pages All Submissions will be reviewed and
-                evaluated based on originality, technical research and relevance
-                to conference themes. RAME-2020 papers have been published in
-                Weentech Proceedings in Energy and Lecture Notes in Mechanical
-                Engineering, Springer (LNME Scopus Indexed). RAME 2022 papers
-                are proposed to be published in Springer LNME and Materials
-                Today Proceedings (Scopus Indexed), and some other ESCI, SCI and
-                SCIE journals provided the articles conform to our publishing
-                criteria and meet quality standards, and certificate of
-                acceptance will be provided to the corresponding authors and
-                conference participants & contributors during the conference.
-                Papers must be submitted strictly in the RAME-2020 template.
-              </p>
-            </div>
-            <div className="col-12">
+            <div className="col-12 mt-4">
               <div className="section-header">
                 <h2>Research Paper Topics</h2>
               </div>
               <p className="call-for-paper-paragraph">
                 The main topics of the conference have been classified into the
                 following four categories:
-                <br /> • Thermal Engineering <br />• Energy Science and
-                Engineering
-                <br /> • Product Design and Development <br />• Industrial and
-                Production Engineering <br />
+                <span className="points">
+                  <br /> • Thermal Engineering <br />• Energy Science and
+                  Engineering
+                  <br /> • Product Design and Development <br />• Industrial and
+                  Production Engineering <br />
+                </span>
                 In addition to the above any other topic relevant to the theme
                 of the conference shall be welcomed.
               </p>
             </div>
             <div className="col-12">
-              <div className="section-header"  style={{
-              marginTop: "10px",
-            }}>
+              <div
+                className="section-header"
+                style={{
+                  marginTop: "25px",
+                }}
+              >
                 <h2>Participation</h2>
               </div>
               <p className="call-for-paper-paragraph">
@@ -86,9 +66,12 @@ const App = () => {
           </div>
           <div className="row">
             <div className="col-12">
-              <table className="w-100 mb-5 register-table"   style={{
-              marginTop: "20px",
-            }}>
+              <table
+                className="w-100 mb-5 register-table"
+                style={{
+                  marginTop: "20px",
+                }}
+              >
                 <tr style={{ color: "black" }}>
                   <th>Categories</th>
                   <th>International</th>

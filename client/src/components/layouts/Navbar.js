@@ -59,8 +59,8 @@ const Navbar = () => {
           </li>
 
           <li className="nav-item">
-            <Link className="nav-link mx-2" to="/important-dates">
-              Important Dates
+            <Link className="nav-link mx-2" to="/publication">
+             Publication
             </Link>
           </li>
           <li className="nav-item">
@@ -77,7 +77,7 @@ const Navbar = () => {
         </ul>
         <img
           src={DTULogo}
-          width="65"
+          width="70"
           height="60"
           class="d-inline-block align-top"
           alt="Rame'22"

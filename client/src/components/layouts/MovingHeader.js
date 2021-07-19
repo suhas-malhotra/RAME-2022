@@ -6,7 +6,7 @@ export const MovingHeader = () => {
   return (
     <div>
       <marquee bgcolor="#FFC000" scrollamount="10" vspace="5" direction="left">
-        Deadline for Registration is 31<sup>st</sup> December' 2021
+        Deadline for Paper submission is 31<sup>st</sup> December' 2021
       </marquee>
     </div>
   );

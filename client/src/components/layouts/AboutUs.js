@@ -89,7 +89,7 @@ const AboutUs = () => {
             high FFA oils such as rice bran, Neem, Mahua etc. have been
             successfully converted into bio diesel. We are on the way to make
             DTU campus a zero organic waste campus. Special projects are in
-            progress rto manage e-waste in DTU campus.DTU has achieved zero
+            progress to manage e-waste in DTU campus.DTU has achieved zero
             liquid discharge successfully with the installation of STTP plant.
           </p>
         </div>
@@ -112,7 +112,7 @@ const AboutUs = () => {
             Technological University. He is a member of National Assessment and
             Accreditation Council (NAAC). He is also an independent director of
             GSPL. He has worked as Chairman, Central Regional Committee, AICTE,
-            Bhopal. : He has been the fifth Director of Netaji Subhas Institute
+            Bhopal. He has been the fifth Director of Netaji Subhas Institute
             of Technology, Delhi (December 31, 2014 to July 24, 2017) and
             sixteenth Vice Chancellor of Maharaja Sayajirao University of
             Baroda, Gujarat (July 07, 2011 to December 29, 2014). Government of

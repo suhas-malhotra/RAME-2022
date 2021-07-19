@@ -19,7 +19,7 @@ export default function Intro() {
 
   return (
     <div className="intro" id="intro">
-      <div className="wrapper">
+      <div className="wrapper" >
         <h1>
           {" "}
           3<sup>rd</sup> International Conference
