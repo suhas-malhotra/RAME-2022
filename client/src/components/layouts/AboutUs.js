@@ -42,16 +42,11 @@ const AboutUs = () => {
             and Architecture, now a Deemed University and Institution of
             National importance. The department of Arts and Sculpture became
             College of Arts and the departments of Chemical Technology and
-            Textile Technology were shifted out en-block to mark beginning of
-            the IIT Delhi. The erstwhile DCE functioned from its historic
-            Kashmere Gate Campus for almost 55 years and has shifted in 1996 to
-            its lush green sprawling campus of 164 Acres at Bawana Road,
-            adjoining Sector-17, Rohini, Delhi-42.
-          </p>
-          <p class="text-justify">
-            Its shifting to new campus has added the dimension of research and
-            caused innovations in plenty, which has received high national and
-            international acclaim.
+            Textile Technology were shifted out to mark beginning of the IIT
+            Delhi. The erstwhile DCE functioned from its historic Kashmere Gate
+            Campus for almost 55 years and has shifted in 1996 to its lush green
+            sprawling campus of 164 Acres at Bawana Road, adjoining Sector-17,
+            Rohini, Delhi-42.
           </p>
         </div>
         <div class="profile-wrapper wow fadeInRight" data-wow-delay="0.3s">
@@ -73,8 +68,9 @@ const AboutUs = () => {
             Automobile Engineering has seen considerable growth since its
             inception in 1941. The department offers UG programme in Mechanical,
             Production & Industrial Engineering and Automobile Engineering and
-            PG programmes on Thermal Engineering, Production Engineering. About 200
-            research Scholars are presently pursuing their Ph.D. research work.
+            PG programmes on Thermal Engineering, Production Engineering. About
+            200 research Scholars are presently pursuing their Ph.D. research
+            work.
           </p>
           <p class="text-justify">
             The department possesses modern laboratories equipped with latest
@@ -112,13 +108,12 @@ const AboutUs = () => {
             Technological University. He is a member of National Assessment and
             Accreditation Council (NAAC). He is also an independent director of
             GSPL. He has worked as Chairman, Central Regional Committee, AICTE,
-            Bhopal. He has been the fifth Director of Netaji Subhas Institute
-            of Technology, Delhi (December 31, 2014 to July 24, 2017) and
-            sixteenth Vice Chancellor of Maharaja Sayajirao University of
-            Baroda, Gujarat (July 07, 2011 to December 29, 2014). Government of
-            Gujarat had given him the second term of Vice Chancellor, Maharaja
-            Sayajirao University of Baroda, which he continued upto December 29,
-            2014.
+            Bhopal. He has been the fifth Director of Netaji Subhas Institute of
+            Technology, Delhi (December 31, 2014 to July 24, 2017) and sixteenth
+            Vice Chancellor of Maharaja Sayajirao University of Baroda, Gujarat
+            (July 07, 2011 to December 29, 2014). Government of Gujarat had
+            given him the second term of Vice Chancellor, Maharaja Sayajirao
+            University of Baroda, which he continued upto December 29, 2014.
           </p>
         </div>
 
