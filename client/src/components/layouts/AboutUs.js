@@ -53,6 +53,7 @@ const AboutUs = () => {
             caused innovations in plenty, which has received high national and
             international acclaim.
           </p>
+          <button>Know More</button>
         </div>
         <div class="profile-wrapper wow fadeInRight" data-wow-delay="0.3s">
           <h3 class="venue-cap">About Mechanical Engineering Department</h3>
@@ -92,6 +93,7 @@ const AboutUs = () => {
             progress to manage e-waste in DTU campus.DTU has achieved zero
             liquid discharge successfully with the installation of STTP plant.
           </p>
+          <button>Know More</button>
         </div>
         <div class="profile-wrapper wow fadeInRight" data-wow-delay="0.3s">
           <h3 class="venue-cap">Chief Patron</h3>
@@ -120,6 +122,7 @@ const AboutUs = () => {
             Sayajirao University of Baroda, which he continued upto December 29,
             2014.
           </p>
+          <button>Know More</button>
         </div>
 
         <div class="profile-wrapper wow fadeInRight" data-wow-delay="0.3s">
@@ -150,6 +153,7 @@ const AboutUs = () => {
             Sayajirao University of Baroda, which he continued upto December 29,
             2014.
           </p>
+          <button>Know More</button>
         </div>
       </section>
     </div>
