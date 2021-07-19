@@ -3,7 +3,7 @@ import React from "react";
 import Navbar from "../../components/layouts/Navbar";
 
 import MovingHeader from "../../components/layouts/MovingHeader";
-
+import img from "../../assets/img/time.png";
 import Footer from "../../components/layouts/Footer";
 import "./App.css";
 
@@ -97,6 +97,149 @@ const App = () => {
           </div>
         </div>
       </div>
+      <div className="section-header">
+        <h2>IMPORTANT DATES</h2>
+      </div>
+     
+      
+      <div className="event-container">
+        <h3 className="year">2021</h3>
+
+        <div className="event">
+          <div className="event-left">
+            <div className="event-date">
+              <div className="date">31</div>
+              <div className="month">December</div>
+            </div>
+          </div>
+
+          <div className="event-right">
+            <h3 className="event-title">Submission Deadline for fu</h3>
+
+            <div className="event-description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Accusamus, ratione.
+            </div>
+
+            <div className="event-timing">
+              <img src={img} alt="" /> 10:00 am
+            </div>
+          </div>
+        </div>
+
+        <div className="event">
+          <div className="event-left">
+            <div className="event-date">
+              <div className="date">22</div>
+              <div className="month"> Jul</div>
+            </div>
+          </div>
+
+          <div className="event-right">
+            <h3 className="event-title">Lorem, ipsum dolor.</h3>
+
+            <div className="event-description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Accusamus, ratione.
+            </div>
+
+            <div className="event-timing">
+              <img src={img} alt="" /> 10:45 am
+            </div>
+          </div>
+        </div>
+
+        <h3 className="year">2020</h3>
+
+        <div className="event">
+          <div className="event-left">
+            <div className="event-date">
+              <div className="date">8</div>
+              <div className="month">Jan</div>
+            </div>
+          </div>
+
+          <div className="event-right">
+            <h3 className="event-title">Lorem, ipsum dolor.</h3>
+
+            <div className="event-description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Accusamus, ratione.
+            </div>
+
+            <div className="event-timing">
+              <img src={img} alt="" /> 10:00 am
+            </div>
+          </div>
+        </div>
+
+        <div className="event">
+          <div className="event-left">
+            <div className="event-date">
+              <div className="date">9</div>
+              <div className="month">Mar</div>
+            </div>
+          </div>
+
+          <div className="event-right">
+            <h3 className="event-title">Lorem, ipsum dolor.</h3>
+
+            <div className="event-description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Accusamus, ratione.
+            </div>
+
+            <div className="event-timing">
+              <img src={img} alt="" /> 10:30 am
+            </div>
+          </div>
+        </div>
+
+        <div className="event">
+          <div className="event-left">
+            <div className="event-date">
+              <div className="date">4</div>
+              <div className="month">Apr</div>
+            </div>
+          </div>
+
+          <div className="event-right">
+            <h3 className="event-title">Lorem, ipsum dolor.</h3>
+
+            <div className="event-description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Accusamus, ratione.
+            </div>
+
+            <div className="event-timing">
+              <img src={img} alt="" /> 10:00 am
+            </div>
+          </div>
+        </div>
+
+        <div className="event">
+          <div className="event-left">
+            <div className="event-date">
+              <div className="date">8</div>
+              <div className="month">Jun</div>
+            </div>
+          </div>
+
+          <div className="event-right">
+            <h3 className="event-title">Lorem, ipsum dolor.</h3>
+
+            <div className="event-description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Accusamus, ratione.
+            </div>
+
+            <div className="event-timing">
+              <img src={img} alt="" /> 10:00 am
+            </div>
+          </div>
+        </div>
+     
+    </div>
       <Footer />
     </div>
   );
