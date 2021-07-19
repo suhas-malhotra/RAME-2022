@@ -47,20 +47,13 @@ const Navbar = () => {
           </li>
 
           <li className="nav-item">
-            <Link to="/gallery" className="nav-link mx-2">
-              Gallery
+            <Link className="nav-link mx-2" to="/publication">
+              Publication
             </Link>
           </li>
-
           <li className="nav-item">
             <Link className="nav-link mx-2" to="/speakers">
               Speakers
-            </Link>
-          </li>
-
-          <li className="nav-item">
-            <Link className="nav-link mx-2" to="/publication">
-             Publication
             </Link>
           </li>
           <li className="nav-item">
@@ -68,7 +61,11 @@ const Navbar = () => {
               Committee
             </Link>
           </li>
-
+          <li className="nav-item">
+            <Link to="/gallery" className="nav-link mx-2">
+              Gallery
+            </Link>
+          </li>
           <li className="nav-item">
             <Link className="nav-link mx-2" to="/contact-us">
               Contact

@@ -82,3 +82,7 @@
 .header {
   padding-top: 40px;
 }
+.speaker-text {
+  text-align: justify;
+  text-justify: inter-word;
+}

@@ -2,6 +2,8 @@ import React from "react";
 
 import Navbar from "../../components/layouts/Navbar";
 import MovingHeader from "../../components/layouts/MovingHeader";
+import speaker1 from "../../assets/img/speakers/speaker1.jpg";
+import speaker2 from "../../assets/img/speakers/speaker2.jpg";
 
 import Footer from "../../components/layouts/Footer";
 
@@ -25,23 +27,26 @@ const App = () => {
                 <div className="card-body p-0">
                   <div className="profile">
                     {" "}
-                    <img
-                      src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574583336/AAA/4.jpg"
-                      alt=""
-                    />{" "}
+                    <img src={speaker1} alt="" />{" "}
                   </div>
                   <div className="card-title mt-4">
                     {" "}
-                    Angelina Frederic
-                    <br /> <small>Head of marketing at K mart</small>{" "}
+                    Prof. Hee Chang LIM
+                    <br />
                   </div>
                   <div className="card-subtitle">
                     <p>
                       {" "}
                       <small className="text-muted">
-                        {" "}
-                        I expected anything less than perfect for the team of
-                        experts. They are the best team ever!{" "}
+                        <p className="speaker-text">
+                          Prof. Hee Chang LIM obtained his Bachelor of Science
+                          in Mechanical Engineering from the Department of
+                          Mechanical Engineering of Pusan National University.
+                          The MSc and Ph.D. degrees in Thermo-Fluid Mechanics
+                          followed this from the Department of Mechanical
+                          Engineering of Pohang University of Science and
+                          Technology (POSTECH).
+                        </p>
                       </small>{" "}
                     </p>
                   </div>
@@ -53,23 +58,28 @@ const App = () => {
                 <div className="card-body p-0">
                   <div className="profile">
                     {" "}
-                    <img
-                      src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1574583336/AAA/4.jpg"
-                      alt=""
-                    />{" "}
+                    <img src={speaker2} alt="" />{" "}
                   </div>
                   <div className="card-title mt-4">
                     {" "}
-                    Angelina Frederic
-                    <br /> <small>Head of marketing at K mart</small>{" "}
+                    K.A. Subramanian
+                    <br />
                   </div>
                   <div className="card-subtitle">
                     <p>
                       {" "}
                       <small className="text-muted">
-                        {" "}
-                        I expected anything less than perfect for the team of
-                        experts. They are the best team ever!{" "}
+                        <p className="speaker-text">
+                          Dr. K.A. Subramanian is working as a Professor in
+                          Centre for Energy Studies, Indian Institute of
+                          Technology Delhi. His main research area includes
+                          alternative fueled internal combustion engines. Prior
+                          to joining to this Institute, he worked as a Scientist
+                          in Indian Institute of Petroleum after he received his
+                          Doctoral degree in Internal Combustion Engines
+                          (Mechanical Engineering) from Indian Institute of
+                          Technology Madras.
+                        </p>
                       </small>{" "}
                     </p>
                   </div>
