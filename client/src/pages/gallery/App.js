@@ -6,6 +6,8 @@ import Navbar from "../../components/layouts/Navbar";
 import "./App.css";
 import LASTYEAR from "../../components/layouts/2020imagesdata";
 import SIXTEEN from "../../components/layouts/2016imagesdata";
+import DTUPHOTOS from "../../components/layouts/dtuphotosdata";
+
 
 
 import MovingHeader from "../../components/layouts/MovingHeader";
@@ -32,7 +34,15 @@ const App = () => {
           >
             RAME 2016
           </button>
+          <button
+            onClick={() => {
+              setImages(DTUPHOTOS);
+            }}
+          >
+            DTU Photos
+          </button>
         </div>
+        
         <Gallery images={images} />
       </div>
     </div>
