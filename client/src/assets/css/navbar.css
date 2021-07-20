@@ -5,6 +5,9 @@
     width: 50px !important;
     height: 50px;
   }
+  .hidden {
+    visibility: hidden;
+  }
 }
 .navbar {
   background-color: white;

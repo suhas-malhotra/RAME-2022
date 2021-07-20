@@ -3,7 +3,9 @@ import "./App.css";
 
 import Navbar from "../../components/layouts/Navbar";
 import MovingHeader from "../../components/layouts/MovingHeader";
-
+import img1 from "../../assets/img/vc.png";
+import img2 from "../../assets/img/patron.png";
+import img3 from "../../assets/img/advisory.jpeg";
 import Footer from "../../components/layouts/Footer";
 
 const App = () => {
@@ -26,16 +28,12 @@ const App = () => {
               <div class="mt-4 pt-2">
                 <div class="team position-relative d-block text-center">
                   <div class="image position-relative d-block overflow-hidden">
-                    <img
-                      src="https://bootdey.com/img/Content/avatar/avatar1.png"
-                      class="img-fluid rounded"
-                      alt=""
-                    />
+                    <img src={img1} class="img-fluid rounded" alt=""  style={{height:"277.56px"}}/>
                     <div class="overlay rounded bg-dark"></div>
                   </div>
                   <div class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
-                    <h4 class="title mb-0">Calvin Carlo</h4>
-                    <small class="text-muted">Founder</small>
+                    <h4 class="title mb-0">Prof. Yogesh Singh</h4>
+                    <small class="text-muted">Chief Patron</small>
                   </div>
                 </div>
               </div>
@@ -45,15 +43,15 @@ const App = () => {
                 <div class="team position-relative d-block text-center">
                   <div class="image position-relative d-block overflow-hidden">
                     <img
-                      src="https://bootdey.com/img/Content/avatar/avatar1.png"
+                      src={img2}
                       class="img-fluid rounded"
                       alt=""
                     />
                     <div class="overlay rounded bg-dark"></div>
                   </div>
                   <div class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
-                    <h4 class="title mb-0">Calvin Carlo</h4>
-                    <small class="text-muted">Founder</small>
+                    <h4 class="title mb-0">Prof. S. K. Garg</h4>
+                    <small class="text-muted">Patron</small>
                   </div>
                 </div>
               </div>
@@ -70,8 +68,8 @@ const App = () => {
                     <div class="overlay rounded bg-dark"></div>
                   </div>
                   <div class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
-                    <h4 class="title mb-0">Calvin Carlo</h4>
-                    <small class="text-muted">Founder</small>
+                    <h4 class="title mb-0">Prof. Amit Pal</h4>
+                    <small class="text-muted">Conference Chair</small>
                   </div>
                 </div>
               </div>
@@ -88,8 +86,8 @@ const App = () => {
                     <div class="overlay rounded bg-dark"></div>
                   </div>
                   <div class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
-                    <h4 class="title mb-0">Calvin Carlo</h4>
-                    <small class="text-muted">Founder</small>
+                    <h4 class="title mb-0">Prof. Vijay Gautam</h4>
+                    <small class="text-muted">Conference Co-Chair</small>
                   </div>
                 </div>
               </div>
@@ -107,8 +105,8 @@ const App = () => {
                     <div class="overlay rounded bg-dark"></div>
                   </div>
                   <div class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
-                    <h4 class="title mb-0">Martin Sobhe</h4>
-                    <small class="text-muted">C.E.O.</small>
+                    <h4 class="title mb-0">Dr.Anil Kumar</h4>
+                    <small class="text-muted">Convener</small>
                   </div>
                 </div>
               </div>
@@ -126,8 +124,8 @@ const App = () => {
                     <div class="overlay rounded bg-dark"></div>
                   </div>
                   <div class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
-                    <h4 class="title mb-0">Bobby DE</h4>
-                    <small class="text-muted">Developer</small>
+                    <h4 class="title mb-0">Dr. Girish Kumar</h4>
+                    <small class="text-muted">Co-Convener</small>
                   </div>
                 </div>
               </div>
@@ -145,8 +143,26 @@ const App = () => {
                     <div class="overlay rounded bg-dark"></div>
                   </div>
                   <div class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
-                    <h4 class="title mb-0">Calvin Carlo</h4>
-                    <small class="text-muted">Founder</small>
+                    <h4 class="title mb-0">Dr. M. Zuniad</h4>
+                    <small class="text-muted">Organizing Secretary</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 mt-4">
+              <div class="mt-4 pt-2">
+                <div class="team position-relative d-block text-center">
+                  <div class="image position-relative d-block overflow-hidden">
+                    <img
+                      src={img3}
+                      class="img-fluid rounded"
+                      alt=""
+                    />
+                    <div class="overlay rounded bg-dark"></div>
+                  </div>
+                  <div class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
+                    <h4 class="title mb-0">Mr Sanjeev Kumar Varshney</h4>
+                    <small class="text-muted">Advisory Committe</small>
                   </div>
                 </div>
               </div>
@@ -163,8 +179,44 @@ const App = () => {
                     <div class="overlay rounded bg-dark"></div>
                   </div>
                   <div class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
-                    <h4 class="title mb-0">Cristino Murphy</h4>
-                    <small class="text-muted">Designer</small>
+                    <h4 class="title mb-0">Dr. K Manjunath</h4>
+                    <small class="text-muted">Joint Organizing Secretary</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 mt-4">
+              <div class="mt-4 pt-2">
+                <div class="team position-relative d-block text-center">
+                  <div class="image position-relative d-block overflow-hidden">
+                    <img
+                      src="https://bootdey.com/img/Content/avatar/avatar2.png"
+                      class="img-fluid rounded"
+                      alt=""
+                    />
+                    <div class="overlay rounded bg-dark"></div>
+                  </div>
+                  <div class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
+                    <h4 class="title mb-0">Mr Sanjeev Kumar Varshney</h4>
+                    <small class="text-muted">Dr. N. A. Ansari</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 mt-4">
+              <div class="mt-4 pt-2">
+                <div class="team position-relative d-block text-center">
+                  <div class="image position-relative d-block overflow-hidden">
+                    <img
+                      src="https://bootdey.com/img/Content/avatar/avatar2.png"
+                      class="img-fluid rounded"
+                      alt=""
+                    />
+                    <div class="overlay rounded bg-dark"></div>
+                  </div>
+                  <div class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
+                    <h4 class="title mb-0">Dr. N. Yuvraj</h4>
+                    <small class="text-muted">Joint Organizing Secretary</small>
                   </div>
                 </div>
               </div>

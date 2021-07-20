@@ -8,9 +8,16 @@
 
 button {
   color: white;
-  background-color: lightblue;
+  font-weight: 600;
+  background-color: #2081c3;
+  border: 2px solid #2081c3;
   padding: 10px 40px;
   border-radius: 4px;
   outline: 0;
-  border: 0px;
+}
+button:hover{
+  color: black;
+  font-weight: 600;
+  background-color: white;
+  border: 2px solid black;
 }

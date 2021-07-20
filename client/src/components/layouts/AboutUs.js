@@ -48,7 +48,6 @@ const AboutUs = () => {
             sprawling campus of 164 Acres at Bawana Road, adjoining Sector-17,
             Rohini, Delhi-42.
           </p>
-          <button>Know More</button>
         </div>
         <div class="profile-wrapper wow fadeInRight" data-wow-delay="0.3s">
           <h3 class="venue-cap">About Mechanical Engineering Department</h3>
@@ -89,7 +88,6 @@ const AboutUs = () => {
             progress to manage e-waste in DTU campus.DTU has achieved zero
             liquid discharge successfully with the installation of STTP plant.
           </p>
-          <button>Know More</button>
         </div>
         <div class="profile-wrapper wow fadeInRight" data-wow-delay="0.3s">
           <h3 class="venue-cap">Chief Patron</h3>
@@ -117,7 +115,9 @@ const AboutUs = () => {
             given him the second term of Vice Chancellor, Maharaja Sayajirao
             University of Baroda, which he continued upto December 29, 2014.
           </p>
-          <button>Know More</button>
+          <a href="http://dtu.ac.in/Web/Administrations/Vice-Chancellor.php">
+            <button>Know More</button>
+          </a>
         </div>
 
         <div class="profile-wrapper wow fadeInRight" data-wow-delay="0.3s">
@@ -148,7 +148,9 @@ const AboutUs = () => {
             Sayajirao University of Baroda, which he continued upto December 29,
             2014.
           </p>
-          <button>Know More</button>
+          <a href="http://dtu.ac.in/Web/Administrations/PVC_SKG.php">
+            <button>Know More</button>
+          </a>
         </div>
       </section>
     </div>

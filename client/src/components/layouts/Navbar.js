@@ -76,7 +76,7 @@ const Navbar = () => {
           src={DTULogo}
           width="70"
           height="60"
-          class="d-inline-block align-top"
+          class="d-inline-block align-top hidden"
           alt="Rame'22"
         />
       </div>
