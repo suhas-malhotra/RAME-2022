@@ -114,131 +114,19 @@ const App = () => {
           </div>
 
           <div className="event-right">
-            <h3 className="event-title">Submission Deadline for fu</h3>
+            <h3 className="event-title">LAST DATE for full Length Papers</h3>
 
             <div className="event-description">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Accusamus, ratione.
+              Submission Deadlines for Full Length Papers 
+              At max of 10 pages
             </div>
 
             <div className="event-timing">
-              <img src={img} alt="" /> 10:00 am
+              <img src={img} alt="" /> 11:59 pm
             </div>
           </div>
         </div>
 
-        <div className="event">
-          <div className="event-left">
-            <div className="event-date">
-              <div className="date">22</div>
-              <div className="month"> Jul</div>
-            </div>
-          </div>
-
-          <div className="event-right">
-            <h3 className="event-title">Lorem, ipsum dolor.</h3>
-
-            <div className="event-description">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Accusamus, ratione.
-            </div>
-
-            <div className="event-timing">
-              <img src={img} alt="" /> 10:45 am
-            </div>
-          </div>
-        </div>
-
-        <h3 className="year">2020</h3>
-
-        <div className="event">
-          <div className="event-left">
-            <div className="event-date">
-              <div className="date">8</div>
-              <div className="month">Jan</div>
-            </div>
-          </div>
-
-          <div className="event-right">
-            <h3 className="event-title">Lorem, ipsum dolor.</h3>
-
-            <div className="event-description">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Accusamus, ratione.
-            </div>
-
-            <div className="event-timing">
-              <img src={img} alt="" /> 10:00 am
-            </div>
-          </div>
-        </div>
-
-        <div className="event">
-          <div className="event-left">
-            <div className="event-date">
-              <div className="date">9</div>
-              <div className="month">Mar</div>
-            </div>
-          </div>
-
-          <div className="event-right">
-            <h3 className="event-title">Lorem, ipsum dolor.</h3>
-
-            <div className="event-description">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Accusamus, ratione.
-            </div>
-
-            <div className="event-timing">
-              <img src={img} alt="" /> 10:30 am
-            </div>
-          </div>
-        </div>
-
-        <div className="event">
-          <div className="event-left">
-            <div className="event-date">
-              <div className="date">4</div>
-              <div className="month">Apr</div>
-            </div>
-          </div>
-
-          <div className="event-right">
-            <h3 className="event-title">Lorem, ipsum dolor.</h3>
-
-            <div className="event-description">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Accusamus, ratione.
-            </div>
-
-            <div className="event-timing">
-              <img src={img} alt="" /> 10:00 am
-            </div>
-          </div>
-        </div>
-
-        <div className="event">
-          <div className="event-left">
-            <div className="event-date">
-              <div className="date">8</div>
-              <div className="month">Jun</div>
-            </div>
-          </div>
-
-          <div className="event-right">
-            <h3 className="event-title">Lorem, ipsum dolor.</h3>
-
-            <div className="event-description">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Accusamus, ratione.
-            </div>
-
-            <div className="event-timing">
-              <img src={img} alt="" /> 10:00 am
-            </div>
-          </div>
-        </div>
-     
     </div>
       <Footer />
     </div>
