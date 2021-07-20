@@ -3,7 +3,7 @@ import React from "react";
 import Navbar from "../../components/layouts/Navbar";
 
 import MovingHeader from "../../components/layouts/MovingHeader";
-
+import img from "../../assets/img/time.png";
 import Footer from "../../components/layouts/Footer";
 import "./App.css";
 
@@ -97,6 +97,37 @@ const App = () => {
           </div>
         </div>
       </div>
+      <div className="section-header">
+        <h2>IMPORTANT DATES</h2>
+      </div>
+     
+      
+      <div className="event-container">
+        <h3 className="year">2021</h3>
+
+        <div className="event">
+          <div className="event-left">
+            <div className="event-date">
+              <div className="date">31</div>
+              <div className="month">December</div>
+            </div>
+          </div>
+
+          <div className="event-right">
+            <h3 className="event-title">LAST DATE for full Length Papers</h3>
+
+            <div className="event-description">
+              Submission Deadlines for Full Length Papers 
+              At max of 10 pages
+            </div>
+
+            <div className="event-timing">
+              <img src={img} alt="" /> 11:59 pm
+            </div>
+          </div>
+        </div>
+
+    </div>
       <Footer />
     </div>
   );
