@@ -6,6 +6,14 @@ import MovingHeader from "../../components/layouts/MovingHeader";
 import img1 from "../../assets/img/vc.png";
 import img2 from "../../assets/img/patron.png";
 import img3 from "../../assets/img/advisory.jpeg";
+import img4 from "../../assets/img/amit.png";
+import img5 from "../../assets/img/vijay.png";
+import img6 from "../../assets/img/anil.png";
+import img7 from "../../assets/img/girish.png";
+import img8 from "../../assets/img/zuniad.png";
+import img9 from "../../assets/img/manjunath.png";
+import img10 from "../../assets/img/ansari.png";
+import img11 from "../../assets/img/yuvraj.png";
 import Footer from "../../components/layouts/Footer";
 
 const App = () => {
@@ -28,7 +36,12 @@ const App = () => {
               <div class="mt-4 pt-2">
                 <div class="team position-relative d-block text-center">
                   <div class="image position-relative d-block overflow-hidden">
-                    <img src={img1} class="img-fluid rounded" alt=""  style={{height:"277.56px"}}/>
+                    <img
+                      src={img1}
+                      class="img-fluid rounded"
+                      alt=""
+                      style={{ height: "277.56px" }}
+                    />
                     <div class="overlay rounded bg-dark"></div>
                   </div>
                   <div class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
@@ -46,6 +59,7 @@ const App = () => {
                       src={img2}
                       class="img-fluid rounded"
                       alt=""
+                      style={{ height: "277.56px" }}
                     />
                     <div class="overlay rounded bg-dark"></div>
                   </div>
@@ -61,9 +75,10 @@ const App = () => {
                 <div class="team position-relative d-block text-center">
                   <div class="image position-relative d-block overflow-hidden">
                     <img
-                      src="https://bootdey.com/img/Content/avatar/avatar1.png"
+                      src={img4}
                       class="img-fluid rounded"
                       alt=""
+                      style={{ height: "277.56px" }}
                     />
                     <div class="overlay rounded bg-dark"></div>
                   </div>
@@ -79,9 +94,10 @@ const App = () => {
                 <div class="team position-relative d-block text-center">
                   <div class="image position-relative d-block overflow-hidden">
                     <img
-                      src="https://bootdey.com/img/Content/avatar/avatar1.png"
+                      src={img5}
                       class="img-fluid rounded"
                       alt=""
+                      style={{ height: "277.56px" }}
                     />
                     <div class="overlay rounded bg-dark"></div>
                   </div>
@@ -98,9 +114,10 @@ const App = () => {
                 <div class="team position-relative d-block text-center">
                   <div class="image position-relative d-block overflow-hidden">
                     <img
-                      src="https://bootdey.com/img/Content/avatar/avatar3.png"
+                      src={img6}
                       class="img-fluid rounded"
                       alt=""
+                      style={{ height: "277.56px" }}
                     />
                     <div class="overlay rounded bg-dark"></div>
                   </div>
@@ -117,9 +134,10 @@ const App = () => {
                 <div class="team position-relative d-block text-center">
                   <div class="image position-relative d-block overflow-hidden">
                     <img
-                      src="https://bootdey.com/img/Content/avatar/avatar6.png"
+                      src={img7}
                       class="img-fluid rounded"
                       alt=""
+                      style={{ height: "277.56px" }}
                     />
                     <div class="overlay rounded bg-dark"></div>
                   </div>
@@ -136,9 +154,10 @@ const App = () => {
                 <div class="team position-relative d-block text-center">
                   <div class="image position-relative d-block overflow-hidden">
                     <img
-                      src="https://bootdey.com/img/Content/avatar/avatar1.png"
+                      src={img8}
                       class="img-fluid rounded"
                       alt=""
+                      style={{ height: "277.56px" }}
                     />
                     <div class="overlay rounded bg-dark"></div>
                   </div>
@@ -154,27 +173,10 @@ const App = () => {
                 <div class="team position-relative d-block text-center">
                   <div class="image position-relative d-block overflow-hidden">
                     <img
-                      src={img3}
+                      src={img9}
                       class="img-fluid rounded"
                       alt=""
-                    />
-                    <div class="overlay rounded bg-dark"></div>
-                  </div>
-                  <div class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
-                    <h4 class="title mb-0">Mr Sanjeev Kumar Varshney</h4>
-                    <small class="text-muted">Advisory Committe</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-12 mt-4">
-              <div class="mt-4 pt-2">
-                <div class="team position-relative d-block text-center">
-                  <div class="image position-relative d-block overflow-hidden">
-                    <img
-                      src="https://bootdey.com/img/Content/avatar/avatar2.png"
-                      class="img-fluid rounded"
-                      alt=""
+                      style={{ height: "277.56px" }}
                     />
                     <div class="overlay rounded bg-dark"></div>
                   </div>
@@ -190,15 +192,16 @@ const App = () => {
                 <div class="team position-relative d-block text-center">
                   <div class="image position-relative d-block overflow-hidden">
                     <img
-                      src="https://bootdey.com/img/Content/avatar/avatar2.png"
+                      src={img10}
                       class="img-fluid rounded"
                       alt=""
+                      style={{ height: "277.56px" }}
                     />
                     <div class="overlay rounded bg-dark"></div>
                   </div>
                   <div class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
-                    <h4 class="title mb-0">Mr Sanjeev Kumar Varshney</h4>
-                    <small class="text-muted">Dr. N. A. Ansari</small>
+                    <h4 class="title mb-0">Dr. N. A. Ansari</h4>
+                    <small class="text-muted">Joint Organizing Secretary</small>
                   </div>
                 </div>
               </div>
@@ -208,14 +211,15 @@ const App = () => {
                 <div class="team position-relative d-block text-center">
                   <div class="image position-relative d-block overflow-hidden">
                     <img
-                      src="https://bootdey.com/img/Content/avatar/avatar2.png"
+                      src={img11}
                       class="img-fluid rounded"
                       alt=""
+                      style={{ height: "277.56px" }}
                     />
                     <div class="overlay rounded bg-dark"></div>
                   </div>
                   <div class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
-                    <h4 class="title mb-0">Dr. N. Yuvraj</h4>
+                    <h4 class="title mb-0">Dr. N. Yuvrajy</h4>
                     <small class="text-muted">Joint Organizing Secretary</small>
                   </div>
                 </div>
