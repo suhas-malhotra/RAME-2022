@@ -16,6 +16,7 @@ import speaker11 from "../../assets/img/speakers/speaker11.png";
 import speaker12 from "../../assets/img/speakers/speaker12.png";
 import speaker13 from "../../assets/img/speakers/speaker13.png";
 import speaker14 from "../../assets/img/speakers/speaker14.png";
+import speaker15 from "../../assets/img/speakers/speaker15.jpeg";
 import Footer from "../../components/layouts/Footer";
 
 import "./App.css";
@@ -136,6 +137,30 @@ const App = () => {
                         {" "}
                         Working as: Associate Professor, College of Business,
                         University of Modern Sciences, United Arab Emirates
+                      </small>{" "}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="card col-md-3 mt-4">
+              <div className="card-content">
+                <div className="card-body p-0">
+                  <div className="profile">
+                    {" "}
+                    <img src={speaker15} alt="" className="img-fluid" />{" "}
+                  </div>
+                  <div className="card-title mt-4"> Dr. Ashok Kumar</div>
+
+                  <div className="card-subtitle">
+                    <p>
+                      {" "}
+                      <small className="text-muted">
+                        {" "}
+                        Working as: Director at Bureau of Energy Efficiency
+                        (BEE), Ministry of Power, and Government of India. He is
+                        primarily involved in the implementation of National
+                        Mission on Enhanced Energy Efficiency.
                       </small>{" "}
                     </p>
                   </div>
