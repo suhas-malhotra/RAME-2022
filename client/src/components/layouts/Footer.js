@@ -118,7 +118,18 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-copyright text-center py-3 text-white">
-        Made by the students of Delhi Technological University
+        Made with ❤️ by students of Delhi Technological University
+        <ul className = "student_names">
+          <a href = "http://www.linkedin.com/in/suhas-malhotra-dtu" target = "_blank">
+            Suhas Malhotra
+          </a>
+          <a href = "https://www.linkedin.com/in/aditya-teltia-a9a7731b4/" target = "_blank">
+            Aditya Teltia   
+          </a>
+          <a href = "http://www.linkedin.com/in/amandeep-singh-1a196b204" target = "_blank">
+            Amandeep
+          </a>
+        </ul>
       </div>
       
     </footer>

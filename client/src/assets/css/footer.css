@@ -8,3 +8,22 @@
 .page-footer {
   background-color: #2a9df4;
 }
+
+.student_names{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin: 20px 0!important;
+  margin-right: 20px;
+  padding: 0;
+  padding-right: 30px !important;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.student_names a{
+  text-decoration: none;
+  color: white;
+}
