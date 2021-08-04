@@ -277,26 +277,7 @@ const App = () => {
                 </div>
               </div>
             </div>
-            <div className="card col-md-3 mt-4">
-              <div className="card-content">
-                <div className="card-body p-0">
-                  <div className="profile">
-                    {" "}
-                    <img src={speaker11} alt="" />{" "}
-                  </div>
-                  <div className="card-title mt-4"> DR. SHYAM S. PANDEY</div>
-                  <div className="card-subtitle">
-                    <p>
-                      {" "}
-                      <small className="text-muted">
-                        {" "}
-                        (Associate Professor) Division of the Green Electronics,
-                      </small>{" "}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+
             <div className="card col-md-3 mt-4">
               <div className="card-content">
                 <div className="card-body p-0">
