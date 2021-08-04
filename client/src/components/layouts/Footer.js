@@ -127,7 +127,7 @@ const Footer = () => {
             Aditya Teltia   
           </a>
           <a href = "http://www.linkedin.com/in/amandeep-singh-1a196b204" target = "_blank">
-            Amandeep
+            Amandeep Singh
           </a>
         </ul>
       </div>
