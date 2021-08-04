@@ -304,7 +304,7 @@ const App = () => {
                     {" "}
                     <img src={speaker12} alt="" />{" "}
                   </div>
-                  <div className="card-title mt-4"> Nadim Reza Khandaker</div>
+                  <div className="card-title mt-4">Dr.Nadim Reza Khandaker</div>
                   <div className="card-subtitle">
                     <p>
                       {" "}

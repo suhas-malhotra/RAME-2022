@@ -136,17 +136,15 @@ const AboutUs = () => {
               className="right_img"
               alt="front1"
             />
-            Prof. Yogesh Singh is the third Vice Chancellor of Delhi
-            Technological University. He is a member of National Assessment and
-            Accreditation Council (NAAC). He is also an independent director of
-            GSPL. He has worked as Chairman, Central Regional Committee, AICTE,
-            Bhopal. : He has been the fifth Director of Netaji Subhas Institute
-            of Technology, Delhi (December 31, 2014 to July 24, 2017) and
-            sixteenth Vice Chancellor of Maharaja Sayajirao University of
-            Baroda, Gujarat (July 07, 2011 to December 29, 2014). Government of
-            Gujarat had given him the second term of Vice Chancellor, Maharaja
-            Sayajirao University of Baroda, which he continued upto December 29,
-            2014.
+            Prof. S. K. Garg is Professor in Delhi Technological University
+            (Formerly Delhi College of Engineering) and former Pro-Vice
+            Chancellor. He is the founder Head of Delhi School of Management,
+            DTU, offering two year full time MBA and Former Head, Department of
+            Training and Placement. He was appointed as Independent Director to
+            Navratna Public Sector Enterprise by GOI for a period of three years
+            from 2012-2015. He is recipient of Dewang Mehta National Education
+            Award for Best Professor in Operations and manufacturing in the year
+            2015.
           </p>
           <a href="http://dtu.ac.in/Web/Administrations/PVC_SKG.php">
             <button>Know More</button>
