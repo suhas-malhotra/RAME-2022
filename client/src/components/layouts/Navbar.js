@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import Logo from "../../assets/img/logo.png";
 import DTULogo from "../../assets/img/dtuLogo.jpeg";
-
+import HBTULogo from "../../assets/img/HBTU.png";
 // EXTERNAL CSS
 import "../../assets/css/navbar.css";
 
@@ -75,6 +75,13 @@ const Navbar = () => {
         <img
           src={DTULogo}
           width="70"
+          height="60"
+          class="d-inline-block align-top hidden"
+          alt="Rame'22"
+        />
+        <img
+          src={HBTULogo}
+          width="50"
           height="60"
           class="d-inline-block align-top hidden"
           alt="Rame'22"

@@ -12,14 +12,14 @@ export default function Intro() {
       backDelay: 1500,
       backSpeed: 60,
       strings: [
-        "Organized by Department of Mechanical Engineering , Delhi Technological University",
+        "Organized by Department of Mechanical Engineering , DTU in association with Department of Mechanical Engineering , HBTU",
       ],
     });
   }, []);
 
   return (
     <div className="intro" id="intro">
-      <div className="wrapper" >
+      <div className="wrapper">
         <h1>
           {" "}
           3<sup>rd</sup> International Conference

@@ -88,9 +88,14 @@ const App = () => {
                   <td>*INR 6000/-</td>
                 </tr>
                 <tr>
-                  <td>(C) Student/Co-Authors/Attendees</td>
+                  <td>(C) Student/Co-Authors</td>
                   <td>USD 75/-</td>
-                  <td>*INR 4000/-</td>
+                  <td>*INR 3000/-</td>
+                </tr>
+                <tr>
+                  <td>(d) Attendees</td>
+                  <td>USD 25/-</td>
+                  <td>*INR 1000/-</td>
                 </tr>
               </table>
             </div>
@@ -100,8 +105,7 @@ const App = () => {
       <div className="section-header">
         <h2>IMPORTANT DATES</h2>
       </div>
-     
-      
+
       <div className="event-container">
         <h3 className="year">2021</h3>
 
@@ -117,8 +121,7 @@ const App = () => {
             <h3 className="event-title">LAST DATE for full Length Papers</h3>
 
             <div className="event-description">
-              Submission Deadlines for Full Length Papers 
-              At max of 10 pages
+              Submission Deadlines for Full Length Papers At max of 10 pages
             </div>
 
             <div className="event-timing">
@@ -126,8 +129,7 @@ const App = () => {
             </div>
           </div>
         </div>
-
-    </div>
+      </div>
       <Footer />
     </div>
   );

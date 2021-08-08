@@ -33,10 +33,18 @@ const Footer = () => {
             <ul className="list-unstyled">
               <li>
                 <p>
-                  <Link to="/" className="footer-link">
+                  <a href="https://www.dtu.ac.in" className="footer-link">
                     {" "}
                     DTU
-                  </Link>
+                  </a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="https://www.hbtu.in" className="footer-link">
+                    {" "}
+                    HBTU
+                  </a>
                 </p>
               </li>
               <li>
@@ -49,7 +57,7 @@ const Footer = () => {
               </li>
               <li>
                 <p>
-                  <Link to="/important-dates" className="footer-link">
+                  <Link to="/call-for-papers" className="footer-link">
                     {" "}
                     Important Dates
                   </Link>
@@ -80,8 +88,8 @@ const Footer = () => {
                     name="business-outline"
                     style={{ color: "white" }}
                   ></ion-icon>{" "}
-                  Bawana Rd, Delhi Technological University, Shahbad Daulatpur
-                  Village, Rohini, Delhi, 110042
+                  Delhi Technological University,Bawana Road,Near Rohini, Delhi
+                  - 110042
                 </p>
               </li>
               <li>
@@ -91,7 +99,7 @@ const Footer = () => {
                     style={{ color: "white" }}
                   ></ion-icon>
                   {"  "}
-                  info@example.com
+                  ramedtu@gmail.com
                 </p>
               </li>
             </ul>
@@ -119,19 +127,27 @@ const Footer = () => {
       </div>
       <div className="footer-copyright text-center py-3 text-white">
         Made with ❤️ by students of Delhi Technological University
-        <ul className = "student_names">
-          <a href = "http://www.linkedin.com/in/suhas-malhotra-dtu" target = "_blank">
+        <ul className="student_names">
+          <a
+            href="http://www.linkedin.com/in/suhas-malhotra-dtu"
+            target="_blank"
+          >
             Suhas Malhotra
           </a>
-          <a href = "https://www.linkedin.com/in/aditya-teltia-a9a7731b4/" target = "_blank">
-            Aditya Teltia   
+          <a
+            href="https://www.linkedin.com/in/aditya-teltia-a9a7731b4/"
+            target="_blank"
+          >
+            Aditya Teltia
           </a>
-          <a href = "http://www.linkedin.com/in/amandeep-singh-1a196b204" target = "_blank">
+          <a
+            href="http://www.linkedin.com/in/amandeep-singh-1a196b204"
+            target="_blank"
+          >
             Amandeep Singh
           </a>
         </ul>
       </div>
-      
     </footer>
   );
 };
