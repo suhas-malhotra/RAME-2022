@@ -6,7 +6,7 @@ import MovingHeader from "../../components/layouts/MovingHeader";
 import img1 from "../../assets/img/vc.png";
 import img2 from "../../assets/img/patron.jpg";
 import img3 from "../../assets/img/advisory.jpeg";
-import img4 from "../../assets/img/amit.png";
+import img4 from "../../assets/img/amit.jpeg";
 import img5 from "../../assets/img/vijay.png";
 import img6 from "../../assets/img/anil.png";
 import img7 from "../../assets/img/girish.png";
