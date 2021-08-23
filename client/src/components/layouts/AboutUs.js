@@ -152,29 +152,21 @@ const AboutUs = () => {
               className="right_img"
               alt="front1"
             />
-            The Department of Mechanical, Production & Industrial, and
-            Automobile Engineering has seen considerable growth since its
-            inception in 1941. The department offers UG programme in Mechanical,
-            Production & Industrial Engineering and Automobile Engineering and
-            PG programmes on Thermal Engineering, Production Engineering. About
-            200 research Scholars are presently pursuing their Ph.D. research
-            work.
-          </p>
-          <p class="text-justify">
-            The department possesses modern laboratories equipped with latest
-            experimental set-ups, and research facilities for instrumentation,
-            experimental stress analysis, strength of materials, fluid
-            mechanics, IC engines, Automotive Engineering, Robotics, Heat
-            Transfer, Green Energy, Flexible Manufacturing System, Computational
-            Fluid Dynamics supported by Software like View-Flex, CAD-CAM, etc.
-            The Department has small to medium capacity state of art bio-diesel
-            processing units. Different species of non-edible oil such as
-            linseed, Thumba, Jatropha, cottonseed, waste cooking oil etc. and
-            high FFA oils such as rice bran, Neem, Mahua etc. have been
-            successfully converted into bio diesel. We are on the way to make
-            DTU campus a zero organic waste campus. Special projects are in
-            progress to manage e-waste in DTU campus.DTU has achieved zero
-            liquid discharge successfully with the installation of STTP plant.
+            Department of Mechanical Engineering was established in 1964. It is
+            currently offering an Undergraduate programme of B.Tech. in
+            Mechanical Engineering with an intake of 60 students. Apart from
+            this it also runs a regular Post graduate of M.Tech. in Computer
+            Aided Design with intake of 18 students. Also it offers two
+            part-time M.Tech. programmes with specializations in Mechanical
+            Engineering Design and Industrial System Engineering with intake of
+            10 students in each programme. Presently, the Department is also a
+            Quality Improvement Programme (QIP) centre for Ph.D. with two seats
+            along with 01 seat under TEQIP II programme of World Bank. Most of
+            the faculty members are well qualified and have completed their
+            Ph.D. from reputed Institutions. The Department has well equipped
+            laboratory and research facilities to cater to the need of UG and PG
+            programme. Department also extends Testing and Consultancy work for
+            local Industries.
           </p>
         </div>
         <div class="profile-wrapper wow fadeInRight" data-wow-delay="0.3s">
