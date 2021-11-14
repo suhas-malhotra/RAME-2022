@@ -3,7 +3,7 @@ import "./App.css";
 
 import Navbar from "../../components/layouts/Navbar";
 import MovingHeader from "../../components/layouts/MovingHeader";
-import img1 from "../../assets/img/vc.png";
+import img1 from "../../assets/img/vc.jpeg";
 import img2 from "../../assets/img/patron.jpg";
 import img3 from "../../assets/img/advisory.jpeg";
 import img4 from "../../assets/img/amit.jpeg";

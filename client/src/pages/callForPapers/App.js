@@ -23,10 +23,9 @@ const App = () => {
                 The main topics of the conference have been classified into the
                 following four categories:
                 <span className="points">
-                  <br /> • Thermal Engineering <br />• Energy Science and
+                  <br /> • Thermal Engineering <br />• Materials & Production
                   Engineering
-                  <br /> • Product Design and Development <br />• Industrial and
-                  Production Engineering <br />
+                  <br /> • Product Design and Development <br />
                 </span>
                 In addition to the above any other topic relevant to the theme
                 of the conference shall be welcomed.

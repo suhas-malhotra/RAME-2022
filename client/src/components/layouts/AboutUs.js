@@ -1,7 +1,7 @@
 import React from "react";
 
 import "../../assets/css/aboutus.css";
-import front1 from "../../assets/img/vc.png";
+import front1 from "../../assets/img/vc.jpeg";
 import front2 from "../../assets/img/front2.jpg";
 import front3 from "../../assets/img/patron.jpg";
 import front4 from "../../assets/img/front4.jpg";
@@ -176,6 +176,7 @@ const AboutUs = () => {
               src={front1}
               style={{
                 float: "left",
+                height: "250px",
                 width: "30%",
                 border: "5px solid #d8e6ea",
                 padding: "5px",
@@ -184,16 +185,16 @@ const AboutUs = () => {
               className="right_img"
               alt="front1"
             />
-            Prof. Yogesh Singh is the third Vice Chancellor of Delhi
-            Technological University. He is a member of National Assessment and
-            Accreditation Council (NAAC). He is also an independent director of
-            GSPL. He has worked as Chairman, Central Regional Committee, AICTE,
-            Bhopal. He has been the fifth Director of Netaji Subhas Institute of
-            Technology, Delhi (December 31, 2014 to July 24, 2017) and sixteenth
-            Vice Chancellor of Maharaja Sayajirao University of Baroda, Gujarat
-            (July 07, 2011 to December 29, 2014). Government of Gujarat had
-            given him the second term of Vice Chancellor, Maharaja Sayajirao
-            University of Baroda, which he continued upto December 29, 2014.
+            Prof. Jai Prakash Saini is the Founder Vice-Chancellor of Netaji
+            Subhas University of Technology (NSUT), New Delhi. He joined NSUT as
+            first Vice-Chancellor on 26 September, 2018. Prof. Jai Prakash Saini
+            also working as acting Vice-Chancellor of Delhi Technological
+            University, Delhi. Professor Saini holds B.Tech in Electronics
+            Engineering in 1987 from KNIT Sultanpur; M.Tech. in Electrical
+            Engineering in 1996 from IIT Kanpur; accomplished Ph.D. in
+            Electronics Engineering from KNIT Sultanpur from Dr. R.M.L. Avadh
+            University, Faizabad in January 2001 and has been a passionate
+            teacher.
           </p>
           <a href="http://dtu.ac.in/Web/Administrations/Vice-Chancellor.php">
             <button>Know More</button>

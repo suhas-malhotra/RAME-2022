@@ -25,8 +25,11 @@ export default function Intro() {
           3<sup>rd</sup> International Conference
         </h1>
         <h1> on </h1>
-        <h1> Recent Advances in Mechanical Engineering </h1>
-        <h1>(RAME-2022)</h1>
+        <h1>
+          {" "}
+          Recent Advances in Materials Manufacturing and Thermal Engineering{" "}
+        </h1>
+        <h1>(RAMMTE-2022)</h1>
         <h2>8 - 9 July 2022</h2>
         <h2 className="text-center">
           <span ref={textRef}></span>
