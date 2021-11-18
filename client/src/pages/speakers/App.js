@@ -7,7 +7,7 @@ import speaker2 from "../../assets/img/speakers/portugal.png";
 
 import speaker3 from "../../assets/img/speakers/speaker3.png";
 import speaker4 from "../../assets/img/speakers/speaker4.png";
-import speaker5 from "../../assets/img/speakers/speaker5.png";
+import speaker5 from "../../assets/img/speakers/speaker5.jpeg";
 import speaker6 from "../../assets/img/speakers/speaker6.png";
 import speaker7 from "../../assets/img/speakers/speaker7.png";
 import speaker8 from "../../assets/img/speakers/speaker8.png";
@@ -350,7 +350,7 @@ const App = () => {
                       {" "}
                       <small className="text-muted">
                         {" "}
-                        Coventry University, United Kingdom
+                        Energy System Catapult, Birmingham, UK
                       </small>{" "}
                     </p>
                   </div>

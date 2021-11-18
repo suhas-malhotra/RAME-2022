@@ -20,14 +20,11 @@ export default function Intro() {
   return (
     <div className="intro" id="intro">
       <div className="wrapper">
-        <h1>
-          {" "}
-          3<sup>rd</sup> International Conference
-        </h1>
+        <h1> International Conference</h1>
         <h1> on </h1>
         <h1>
           {" "}
-          Recent Advances in Materials Manufacturing and Thermal Engineering{" "}
+          Recent Advances in Materials, Manufacturing and Thermal Engineering{" "}
         </h1>
         <h1>(RAMMTE-2022)</h1>
         <h2>8 - 9 July 2022</h2>

@@ -23,9 +23,9 @@ const App = () => {
                 The main topics of the conference have been classified into the
                 following four categories:
                 <span className="points">
-                  <br /> • Thermal Engineering <br />• Materials & Production
-                  Engineering
-                  <br /> • Product Design and Development <br />
+                  <br /> • Materials <br />
+                  • Manufacturing
+                  <br /> • Thermal Engineering <br />
                 </span>
                 In addition to the above any other topic relevant to the theme
                 of the conference shall be welcomed.
@@ -106,25 +106,20 @@ const App = () => {
       </div>
 
       <div className="event-container">
-        <h3 className="year">2021</h3>
+        <h3 className="year">2022</h3>
 
         <div className="event">
           <div className="event-left">
             <div className="event-date">
               <div className="date">31</div>
-              <div className="month">December</div>
+              <div className="month">March</div>
             </div>
           </div>
 
           <div className="event-right">
             <h3 className="event-title">LAST DATE for full Length Papers</h3>
-
             <div className="event-description">
               Submission Deadlines for Full Length Papers At max of 10 pages
-            </div>
-
-            <div className="event-timing">
-              <img src={img} alt="" /> 11:59 pm
             </div>
           </div>
         </div>
