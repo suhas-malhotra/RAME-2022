@@ -22,11 +22,11 @@ export default function Intro() {
       <div className="wrapper">
         <h1> International Conference</h1>
         <h1> on </h1>
-        <h1>
+        <h1 style={{ fontSize: "40px" }}>
           {" "}
           Recent Advances in Materials, Manufacturing and Thermal Engineering{" "}
         </h1>
-        <h1>(RAMMTE-2022)</h1>
+        <h1 style={{ fontSize: "40px" }}>(RAMMTE-2022)</h1>
         <h2>8 - 9 July 2022</h2>
         <h2 className="text-center">
           <span ref={textRef}></span>

@@ -13,10 +13,24 @@ const Navbar = () => {
     <nav className="navbar sticky-top navbar-expand-lg">
       <a class="navbar-brand" href="#">
         <img
+          src={DTULogo}
+          width="70"
+          height="60"
+          class="d-inline-block align-top "
+          alt="Rame'22"
+        />
+        <img
           src={Logo}
           width="60"
           height="60"
-          class="d-inline-block align-top"
+          class="d-inline-block align-top ml-2"
+          alt="Rame'22"
+        />
+        <img
+          src={HBTULogo}
+          width="60"
+          height="60"
+          class="d-inline-block align-top ml-3"
           alt="Rame'22"
         />
       </a>
@@ -33,7 +47,7 @@ const Navbar = () => {
       </button>
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav mx-auto mr-3">
+        <ul className="navbar-nav mx-auto">
           <li className="nav-item">
             <Link className="nav-link mx-2" to="/">
               Home
@@ -72,7 +86,7 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-        <img
+        {/* <img
           src={DTULogo}
           width="70"
           height="60"
@@ -85,7 +99,7 @@ const Navbar = () => {
           height="60"
           class="d-inline-block align-top hidden"
           alt="Rame'22"
-        />
+        /> */}
       </div>
     </nav>
   );
