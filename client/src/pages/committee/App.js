@@ -11,7 +11,7 @@ import img4 from "../../assets/img/amit.jpeg";
 import img5 from "../../assets/img/vijay.jpeg";
 import img6 from "../../assets/img/anil.jpeg";
 import img7 from "../../assets/img/girish.png";
-import img8 from "../../assets/img/zuniad.png";
+import img8 from "../../assets/img/zuniad.jpeg";
 import img9 from "../../assets/img/manjunath.png";
 import img10 from "../../assets/img/ansari.png";
 import img11 from "../../assets/img/yuvraj.png";
