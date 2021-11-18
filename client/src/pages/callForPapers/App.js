@@ -73,28 +73,33 @@ const App = () => {
               >
                 <tr style={{ color: "black" }}>
                   <th>Categories</th>
-                  <th>International</th>
-                  <th>Indian</th>
+
+                  <th>Pricing</th>
                 </tr>
                 <tr>
                   <td>(A) Practitioner/Industrialists</td>
-                  <td>USD 150/-</td>
-                  <td>*INR 10,000/-</td>
+
+                  <td>INR 12,000/-</td>
                 </tr>
                 <tr>
                   <td>(B) Academician</td>
-                  <td>USD 100/-</td>
-                  <td>*INR 6000/-</td>
+
+                  <td>INR 10,000/-</td>
                 </tr>
                 <tr>
-                  <td>(C) Student/Co-Authors</td>
-                  <td>USD 75/-</td>
-                  <td>*INR 3000/-</td>
+                  <td>(C) Student</td>
+
+                  <td>INR 8000/-</td>
                 </tr>
                 <tr>
-                  <td>(d) Attendees</td>
-                  <td>USD 25/-</td>
-                  <td>*INR 1000/-</td>
+                  <td>(D) Co-Author/Attendees</td>
+
+                  <td>INR 3000/-</td>
+                </tr>
+                <tr>
+                  <td>(E) International Deligate</td>
+
+                  <td>USD 200.00</td>
                 </tr>
               </table>
             </div>
