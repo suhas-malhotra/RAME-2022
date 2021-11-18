@@ -1,7 +1,7 @@
 import React from "react";
 
 import "../../assets/css/aboutus.css";
-import front1 from "../../assets/img/vc.jpeg";
+import front1 from "../../assets/img/vc.png";
 import front2 from "../../assets/img/front2.jpg";
 import front3 from "../../assets/img/patron.jpg";
 import front4 from "../../assets/img/front4.jpg";
@@ -241,7 +241,7 @@ const AboutUs = () => {
               src={front3}
               style={{
                 float: "left",
-                width: "25%",
+                width: "20%",
                 border: "5px solid #d8e6ea",
                 padding: "5px",
                 marginRight: "2%",
