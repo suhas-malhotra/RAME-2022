@@ -22,13 +22,13 @@ const App = () => {
               <h2 className="mt-4">Publication</h2>
             </div>
             <p className="call-for-paper-paragraph">
-              RAME-2022 invites prospective authors to submit a full paper with
-              minimum six -ten pages All Submissions will be reviewed and
+              RAMMTE-2022 invites prospective authors to submit a full paper
+              with minimum six -ten pages All Submissions will be reviewed and
               evaluated based on originality, technical research and relevance
               to conference themes. RAME-2020 papers have been published in
               Weentech Proceedings in Energy and Lecture Notes in Mechanical
-              Engineering, Springer (LNME Scopus Indexed). RAME 2022 papers are
-              proposed to be published in Springer LNME and Materials Today
+              Engineering, Springer (LNME Scopus Indexed). RAMMTE 2022 papers
+              are proposed to be published in Springer LNME and Materials Today
               Proceedings (Scopus Indexed), and some other ESCI, SCI and SCIE
               journals provided the articles conform to our publishing criteria
               and meet quality standards, and certificate of acceptance will be
@@ -62,7 +62,7 @@ const App = () => {
               src={img3}
               alt=""
               className="img-fluid"
-              style={{ height: "250px" , width:"300px"}}
+              style={{ height: "250px", width: "300px" }}
             />
           </div>
         </div>

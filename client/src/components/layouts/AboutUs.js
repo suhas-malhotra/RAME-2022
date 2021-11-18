@@ -41,15 +41,15 @@ const AboutUs = () => {
             University of Delhi and called as Delhi College of Engineering.
           </p>
           <p class="text-justify">
-            The department of Architecture later became the School of Planning
-            and Architecture, now a Deemed University and Institution of
-            National importance. The department of Arts and Sculpture became
-            College of Arts and the departments of Chemical Technology and
-            Textile Technology were shifted out to mark beginning of the IIT
-            Delhi. The erstwhile DCE functioned from its historic Kashmere Gate
-            Campus for almost 55 years and has shifted in 1996 to its lush green
-            sprawling campus of 164 Acres at Bawana Road, adjoining Sector-17,
-            Rohini, Delhi-42.
+            Department of Architecture later became the School of Planning and
+            Architecture, now a Deemed University and Institution of National
+            importance. The department of Arts and Sculpture became College of
+            Arts and the departments of Chemical Technology and Textile
+            Technology were shifted out to mark beginning of the IIT Delhi. The
+            erstwhile DCE functioned from its historic Kashmere Gate Campus for
+            almost 55 years and has shifted in 1996 to its lush green sprawling
+            campus of 164 Acres at Bawana Road, adjoining Sector-17, Rohini,
+            Delhi-42.
           </p>
         </div>
 
@@ -109,16 +109,15 @@ const AboutUs = () => {
               className="right_img"
               alt="front1"
             />
-            The Department of Mechanical, Production & Industrial, and
-            Automobile Engineering has seen considerable growth since its
-            inception in 1941. The department offers UG programme in Mechanical,
-            Production & Industrial Engineering and Automobile Engineering and
-            PG programmes on Thermal Engineering, Production Engineering. About
-            200 research Scholars are presently pursuing their Ph.D. research
-            work.
+            Department of Mechanical, Production & Industrial, and Automobile
+            Engineering has seen considerable growth since its inception in
+            1941. The department offers UG programme in Mechanical, Production &
+            Industrial Engineering and Automobile Engineering and PG programmes
+            on Thermal Engineering, Production Engineering. About 200 research
+            Scholars are presently pursuing their Ph.D. research work.
           </p>
           <p class="text-justify">
-            The department possesses modern laboratories equipped with latest
+            Department possesses modern laboratories equipped with latest
             experimental set-ups, and research facilities for instrumentation,
             experimental stress analysis, strength of materials, fluid
             mechanics, IC engines, Automotive Engineering, Robotics, Heat
@@ -145,6 +144,7 @@ const AboutUs = () => {
               style={{
                 float: "left",
                 width: "30%",
+                height: "250px",
                 border: "5px solid #d8e6ea",
                 padding: "5px",
                 marginRight: "2%",
@@ -177,7 +177,7 @@ const AboutUs = () => {
               style={{
                 float: "left",
                 height: "250px",
-                width: "30%",
+                width: "25%",
                 border: "5px solid #d8e6ea",
                 padding: "5px",
                 marginRight: "2%",
@@ -207,10 +207,11 @@ const AboutUs = () => {
               src={front7}
               style={{
                 float: "left",
-                width: "30%",
+                width: "25%",
                 border: "5px solid #d8e6ea",
                 padding: "5px",
                 marginRight: "2%",
+                height: "250px",
               }}
               className="right_img"
               alt="front1"
@@ -240,7 +241,7 @@ const AboutUs = () => {
               src={front3}
               style={{
                 float: "left",
-                width: "30%",
+                width: "25%",
                 border: "5px solid #d8e6ea",
                 padding: "5px",
                 marginRight: "2%",
@@ -249,15 +250,19 @@ const AboutUs = () => {
               className="right_img"
               alt="front1"
             />
-            Prof. S. K. Garg is Professor in Delhi Technological University
-            (Formerly Delhi College of Engineering) and former Pro-Vice
-            Chancellor. He is the founder Head of Delhi School of Management,
-            DTU, offering two year full time MBA and Former Head, Department of
-            Training and Placement. He was appointed as Independent Director to
-            Navratna Public Sector Enterprise by GOI for a period of three years
-            from 2012-2015. He is recipient of Dewang Mehta National Education
-            Award for Best Professor in Operations and manufacturing in the year
-            2015.
+            Prof. S. K. Garg is Professor and Head of Mechanical Engineering
+            Department and Former Pro Vice Chancellor Delhi Technological
+            University (Formerly Delhi College of Engineering). He is the
+            founder Head of Delhi School of Management, DTU, offering two year
+            full time MBA and weekend MBA Programs. He headed the Training and
+            Placement Deptt of DTU from 2008-13 and in 2012. Prof. Garg has more
+            than 28 years of experience in teaching and Research and another
+            four years in industry (Hero Honda Motors Ltd.). His teaching and
+            research areas include Supply Chain Management, Logistics
+            Management, Manufacturing Process Automation and Technology
+            Management, Operations Management, Materials Management, Operations
+            Research, Manufacturing Strategy, Production Planning and Control
+            etc.
           </p>
           <a href="http://dtu.ac.in/Web/Administrations/PVC_SKG.php">
             <button>Know More</button>

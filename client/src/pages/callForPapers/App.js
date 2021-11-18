@@ -23,8 +23,8 @@ const App = () => {
                 The main topics of the conference have been classified into the
                 following four categories:
                 <span className="points">
-                  <br /> • Materials <br />
-                  • Manufacturing
+                  <br /> • Material Science Development <br />
+                  • Manufacturing Advances
                   <br /> • Thermal Engineering <br />
                 </span>
                 In addition to the above any other topic relevant to the theme
@@ -41,8 +41,8 @@ const App = () => {
                 <h2>Participation</h2>
               </div>
               <p className="call-for-paper-paragraph">
-                The main objective of RAME-2022 is to provide an opportunity for
-                leading academicians, engineers, scientists, researchers,
+                The main objective of RAMMTE-2022 is to provide an opportunity
+                for leading academicians, engineers, scientists, researchers,
                 industrial professionals and students from around the world to
                 network and have scientific discussions on the latest
                 developments in the fields of Mechanical engineering. It shall

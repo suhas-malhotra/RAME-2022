@@ -4,8 +4,9 @@ import "./App.css";
 import Navbar from "../../components/layouts/Navbar";
 import MovingHeader from "../../components/layouts/MovingHeader";
 import img1 from "../../assets/img/vc.jpeg";
+import img13 from "../../assets/img/vcc.png";
 import img2 from "../../assets/img/patron.jpg";
-import img3 from "../../assets/img/advisory.jpeg";
+import img12 from "../../assets/img/jitender.jpeg";
 import img4 from "../../assets/img/amit.jpeg";
 import img5 from "../../assets/img/vijay.jpeg";
 import img6 from "../../assets/img/anil.jpeg";
@@ -45,7 +46,26 @@ const App = () => {
                     <div class="overlay rounded bg-dark"></div>
                   </div>
                   <div class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
-                    <h4 class="title mb-0">Prof. Yogesh Singh</h4>
+                    <h4 class="title mb-0">Prof. Jai Prakash Saini</h4>
+                    <small class="text-muted">Chief Patron</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 ">
+              <div class="mt-4 pt-2">
+                <div class="team position-relative d-block text-center">
+                  <div class="image position-relative d-block overflow-hidden">
+                    <img
+                      src={img13}
+                      class="img-fluid rounded"
+                      alt=""
+                      style={{ height: "277.56px" }}
+                    />
+                    <div class="overlay rounded bg-dark"></div>
+                  </div>
+                  <div class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
+                    <h4 class="title mb-0">Prof. Samsher</h4>
                     <small class="text-muted">Chief Patron</small>
                   </div>
                 </div>
@@ -97,7 +117,7 @@ const App = () => {
                       src={img5}
                       class="img-fluid rounded"
                       alt=""
-                      style={{ height: "277.56px" }}
+                      style={{ height: "297.56px" }}
                     />
                     <div class="overlay rounded bg-dark"></div>
                   </div>
@@ -143,6 +163,25 @@ const App = () => {
                   </div>
                   <div class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
                     <h4 class="title mb-0">Dr. Girish Kumar</h4>
+                    <small class="text-muted">Co-Convener</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 mt-4">
+              <div class="mt-4 pt-2">
+                <div class="team position-relative d-block text-center">
+                  <div class="image position-relative d-block overflow-hidden">
+                    <img
+                      src={img12}
+                      class="img-fluid rounded"
+                      alt=""
+                      style={{ height: "277.56px" }}
+                    />
+                    <div class="overlay rounded bg-dark"></div>
+                  </div>
+                  <div class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
+                    <h4 class="title mb-0">Dr. Jitendra Bhaskar</h4>
                     <small class="text-muted">Co-Convener</small>
                   </div>
                 </div>
