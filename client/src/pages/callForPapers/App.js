@@ -74,7 +74,7 @@ const App = () => {
                 <tr style={{ color: "black" }}>
                   <th>Categories</th>
 
-                  <th>Pricing</th>
+                  <th>Registration Fees</th>
                 </tr>
                 <tr>
                   <td>(A) Practitioner/Industrialists</td>
@@ -97,7 +97,7 @@ const App = () => {
                   <td>INR 3000/-</td>
                 </tr>
                 <tr>
-                  <td>(E) International Deligate</td>
+                  <td>(E) International Delegates</td>
 
                   <td>USD 200.00</td>
                 </tr>
