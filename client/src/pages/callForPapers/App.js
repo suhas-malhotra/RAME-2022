@@ -79,22 +79,22 @@ const App = () => {
                 <tr>
                   <td>(A) Practitioner/Industrialists</td>
 
-                  <td>INR 12,000/-</td>
+                  <td>INR 10,000/-</td>
                 </tr>
                 <tr>
                   <td>(B) Academician</td>
 
-                  <td>INR 10,000/-</td>
+                  <td>INR 8,000/-</td>
                 </tr>
                 <tr>
                   <td>(C) Student</td>
 
-                  <td>INR 8000/-</td>
+                  <td>INR 6000/-</td>
                 </tr>
                 <tr>
                   <td>(D) Co-Author/Attendees</td>
 
-                  <td>INR 3000/-</td>
+                  <td>INR 2000/-</td>
                 </tr>
                 <tr>
                   <td>(E) International Delegates</td>

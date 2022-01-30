@@ -33,7 +33,12 @@ const App = () => {
               journals provided the articles conform to our publishing criteria
               and meet quality standards, and certificate of acceptance will be
               provided to the corresponding authors and conference participants
-              & contributors during the conference.{" "}
+              & contributors during the conference.
+              <br />
+              *Select papers from the conference will be published by Springer
+              as a proceedings book volume. Springer will conduct quality checks
+              on the accepted papers and only papers that pass these checks will
+              be published.{" "}
             </p>
           </div>
           <div className="col-12">
