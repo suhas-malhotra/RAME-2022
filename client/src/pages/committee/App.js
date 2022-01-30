@@ -4,7 +4,7 @@ import "./App.css";
 import Navbar from "../../components/layouts/Navbar";
 import MovingHeader from "../../components/layouts/MovingHeader";
 import img1 from "../../assets/img/vc.png";
-import img13 from "../../assets/img/vcc.png";
+import img13 from "../../assets/img/vc1.jpeg";
 import img2 from "../../assets/img/patron.jpg";
 import img12 from "../../assets/img/jitender.jpeg";
 import img4 from "../../assets/img/amit.jpeg";
