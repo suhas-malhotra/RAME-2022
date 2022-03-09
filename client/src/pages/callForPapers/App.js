@@ -5,6 +5,7 @@ import Navbar from "../../components/layouts/Navbar";
 import MovingHeader from "../../components/layouts/MovingHeader";
 import img from "../../assets/img/poster.jpg";
 import Footer from "../../components/layouts/Footer";
+
 import "./App.css";
 
 const App = () => {
@@ -89,7 +90,7 @@ const App = () => {
                 <tr>
                   <td>(C) Student</td>
 
-                  <td>INR 6000/-</td>
+                  <td>INR 5000/-</td>
                 </tr>
                 <tr>
                   <td>(D) Co-Author/Attendees</td>
