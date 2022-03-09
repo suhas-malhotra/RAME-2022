@@ -3,7 +3,7 @@ import React from "react";
 import Navbar from "../../components/layouts/Navbar";
 
 import MovingHeader from "../../components/layouts/MovingHeader";
-import img from "../../assets/img/time.png";
+import img from "../../assets/img/poster.jpg";
 import Footer from "../../components/layouts/Footer";
 import "./App.css";
 
@@ -125,6 +125,33 @@ const App = () => {
             <h3 className="event-title">LAST DATE for full Length Papers</h3>
             <div className="event-description">
               Submission Deadlines for Full Length Papers At max of 10 pages
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        {" "}
+        <div
+          className="section-header"
+          style={{
+            marginTop: "25px",
+          }}
+        >
+          <h2>Poster</h2>
+        </div>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-12">
+              <img
+                src={img}
+                height="800"
+                style={{
+                  display: "block",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  width: "50%",
+                }}
+              />
             </div>
           </div>
         </div>

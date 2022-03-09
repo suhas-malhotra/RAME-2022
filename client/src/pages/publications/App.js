@@ -40,6 +40,11 @@ const App = () => {
               on the accepted papers and only papers that pass these checks will
               be published.{" "}
             </p>
+            <p>
+              <a href="https://easychair.org/conferences/?conf=rame2022" >
+                <strong>You can submit your paper here</strong>
+              </a>
+            </p>
           </div>
           <div className="col-12">
             <div className="section-header">
