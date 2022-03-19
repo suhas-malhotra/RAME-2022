@@ -7,7 +7,7 @@ import Footer from "../../components/layouts/Footer";
 import img1 from "../../assets/img/publi1.jpg";
 import img2 from "../../assets/img/publi2.jpg";
 import img3 from "../../assets/img/2016.jpeg";
-import template from "../../assets/docs/template.docx";
+
 
 import "./App.css";
 
@@ -46,9 +46,7 @@ const App = () => {
                 <strong>You can submit your paper here</strong>
               </a>
               <br />
-              <a href={template} download>
-                <strong>Template for Paper Submission</strong>
-              </a>
+             
             </p>
           </div>
           <div className="col-12">
