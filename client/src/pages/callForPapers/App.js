@@ -3,7 +3,7 @@ import React from "react";
 import Navbar from "../../components/layouts/Navbar";
 import template from "../../assets/docs/template.docx";
 import MovingHeader from "../../components/layouts/MovingHeader";
-import img from "../../assets/img/poster.jpg";
+import img from "../../assets/img/poster.png";
 import Footer from "../../components/layouts/Footer";
 
 import "./App.css";
@@ -130,8 +130,8 @@ const App = () => {
         <div className="event">
           <div className="event-left">
             <div className="event-date">
-              <div className="date">31</div>
-              <div className="month">March</div>
+              <div className="date">30</div>
+              <div className="month">April</div>
             </div>
           </div>
 
