@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 import Logo from "../../assets/img/logo.png";
 import DTULogo from "../../assets/img/dtuLogo.jpeg";
+import Azadi from "../../assets/img/AZADI.png";
 import HBTULogo from "../../assets/img/HBTU.png";
 // EXTERNAL CSS
 import "../../assets/css/navbar.css";
@@ -12,6 +13,13 @@ const Navbar = () => {
   return (
     <nav className="navbar sticky-top navbar-expand-lg">
       <a class="navbar-brand" href="#">
+        <img
+          src={Azadi}
+          width="60"
+          height="60"
+          class="d-inline-block align-top ml-2"
+          alt="Rame'22"
+        />
         <img
           src={DTULogo}
           width="70"
@@ -26,6 +34,7 @@ const Navbar = () => {
           class="d-inline-block align-top ml-2"
           alt="Rame'22"
         />
+
         <img
           src={HBTULogo}
           width="60"
@@ -47,7 +56,7 @@ const Navbar = () => {
       </button>
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav mx-auto">
+        <ul className="navbar-nav ml-auto">
           <li className="nav-item">
             <Link className="nav-link mx-2" to="/">
               Home

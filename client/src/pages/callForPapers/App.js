@@ -120,6 +120,34 @@ const App = () => {
           <strong>Template for Paper Submission</strong>
         </a>
       </div>
+      <div className="container mb-3">
+        <strong>
+          Pay the registration fees on the following account number:-
+        </strong>
+        <table
+          className="w-100 mb-5 register-table"
+          style={{
+            marginTop: "20px",
+          }}
+        >
+          <tr>
+            <td>Account Number</td>
+            <td>00000036033355450</td>
+          </tr>
+          <tr>
+            <td>Description</td>
+            <td>REGULAR SB CHQ-ENTITIES</td>
+          </tr>
+          <tr>
+            <td>Name</td>
+            <td>REGISTRAR DTU</td>
+          </tr>
+          <tr>
+            <td>IFSC</td>
+            <td>SBIN 0010446</td>
+          </tr>
+        </table>
+      </div>
       <div className="section-header">
         <h2>IMPORTANT DATES</h2>
       </div>
