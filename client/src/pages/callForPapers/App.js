@@ -158,8 +158,8 @@ const App = () => {
         <div className="event">
           <div className="event-left">
             <div className="event-date">
-              <div className="date">30</div>
-              <div className="month">April</div>
+              <div className="date">25</div>
+              <div className="month">May</div>
             </div>
           </div>
 
