@@ -78,39 +78,31 @@ const App = () => {
                   <th>Categories</th>
 
                   <th>Registration Fees</th>
-                  <th>
-                    Early Bird(before 30<sup>th</sup>April)
-                  </th>
                 </tr>
                 <tr>
                   <td>(A) Practitioner/Industrialists</td>
 
                   <td>INR 10,000/-</td>
-                  <td>INR 8,000/-</td>
                 </tr>
                 <tr>
                   <td>(B) Academician</td>
 
                   <td>INR 8,000/-</td>
-                  <td>INR 6,500/-</td>
                 </tr>
                 <tr>
                   <td>(C) Student</td>
 
                   <td>INR 5000/-</td>
-                  <td>INR 4,000/-</td>
                 </tr>
                 <tr>
                   <td>(D) Co-Author/Attendees</td>
 
                   <td>INR 2000/-</td>
-                  <td>INR 1500/-</td>
                 </tr>
                 <tr>
                   <td>(E) International Delegates</td>
 
                   <td>USD 200.00</td>
-                  <td>USD 150.00</td>
                 </tr>
               </table>
             </div>

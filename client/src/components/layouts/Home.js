@@ -27,7 +27,7 @@ export default function Intro() {
           Recent Advances in Materials, Manufacturing and Thermal Engineering{" "}
         </h1>
         <h1 style={{ fontSize: "40px" }}>(RAMMTE-2022)</h1>
-        <h2>25th May 2022</h2>
+        <h2>8th-9th July 2022</h2>
         <h2 className="text-center">
           <span ref={textRef}></span>
         </h2>
