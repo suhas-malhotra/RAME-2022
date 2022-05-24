@@ -8,7 +8,6 @@ import img1 from "../../assets/img/publi1.jpg";
 import img2 from "../../assets/img/publi2.jpg";
 import img3 from "../../assets/img/2016.jpeg";
 
-
 import "./App.css";
 
 const App = () => {
@@ -39,14 +38,16 @@ const App = () => {
               *Select papers from the conference will be published by Springer
               as a proceedings book volume. Springer will conduct quality checks
               on the accepted papers and only papers that pass these checks will
-              be published.{" "}
+              be published. <br />
+              *Springer Nature does not charge any money for publication of
+              Non-Open Access content. Abstracts/extended abstracts and short
+              papers (less than 4 pages) are not considered for publication.
             </p>
             <p>
               <a href="https://easychair.org/conferences/?conf=rame2022">
                 <strong>You can submit your paper here</strong>
               </a>
               <br />
-             
             </p>
           </div>
           <div className="col-12">

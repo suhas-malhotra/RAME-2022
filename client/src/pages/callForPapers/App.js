@@ -2,6 +2,8 @@ import React from "react";
 
 import Navbar from "../../components/layouts/Navbar";
 import template from "../../assets/docs/template.docx";
+import template2 from "../../assets/docs/springer.docx";
+import template3 from "../../assets/docs/material.docx";
 import MovingHeader from "../../components/layouts/MovingHeader";
 import img from "../../assets/img/poster.png";
 import Footer from "../../components/layouts/Footer";
@@ -117,6 +119,16 @@ const App = () => {
       </div>
       <div className="container mb-3">
         <a href={template} download>
+          <strong>Template for Springer Paper Submission</strong>
+        </a>
+      </div>
+      <div className="container mb-3">
+        <a href={template2} download>
+          <strong>Template for Materials Today Paper Submission</strong>
+        </a>
+      </div>
+      <div className="container mb-3">
+        <a href={template3} download>
           <strong>Template for Paper Submission</strong>
         </a>
       </div>
@@ -158,8 +170,8 @@ const App = () => {
         <div className="event">
           <div className="event-left">
             <div className="event-date">
-              <div className="date">25</div>
-              <div className="month">May</div>
+              <div className="date">5</div>
+              <div className="month">June</div>
             </div>
           </div>
 
