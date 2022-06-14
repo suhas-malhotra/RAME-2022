@@ -42,6 +42,10 @@ const App = () => {
               *Springer Nature does not charge any money for publication of
               Non-Open Access content. Abstracts/extended abstracts and short
               papers (less than 4 pages) are not considered for publication.
+              <br />
+              Selected high quality research papers related to energy research
+              shall be considered for the publication in the Journal "Advances
+              in Energy Research!, An international Journal"
             </p>
             <p>
               <a href="https://easychair.org/conferences/?conf=rame2022">
