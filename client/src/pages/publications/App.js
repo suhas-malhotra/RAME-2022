@@ -45,7 +45,11 @@ const App = () => {
               <br />
               Selected high quality research papers related to energy research
               shall be considered for the publication in the Journal "Advances
-              in Energy Research!, An international Journal"
+              in Energy Research!, An international Journal" and "Web of Science
+              ESCI indexed journal"{" "}
+              <a href=" http://www.techno-press.org/?journal=eri">
+                Website link{" "}
+              </a>
             </p>
             <p>
               <a href="https://easychair.org/conferences/?conf=rame2022">
