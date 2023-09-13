@@ -29,6 +29,8 @@ const App = () => {
                   <br /> • Material Science Development <br />
                   • Manufacturing Advances
                   <br /> • Thermal Engineering <br />
+                  • Design Engineering <br />
+                  • Industrail Engineering <br />
                 </span>
                 In addition to the above any other topic relevant to the theme
                 of the conference shall be welcomed.
@@ -44,7 +46,7 @@ const App = () => {
                 <h2>Participation</h2>
               </div>
               <p className="call-for-paper-paragraph">
-                The main objective of RAMMTE-2022 is to provide an opportunity
+                The main objective of RAMESD-2024 is to provide an opportunity
                 for leading academicians, engineers, scientists, researchers,
                 industrial professionals and students from around the world to
                 network and have scientific discussions on the latest
@@ -128,7 +130,7 @@ const App = () => {
         <strong>
           Pay the registration fees on the following account number:-
         </strong>
-        <table
+        {/* <table
           className="w-100 mb-5 register-table"
           style={{
             marginTop: "20px",
@@ -150,20 +152,20 @@ const App = () => {
             <td>IFSC</td>
             <td>SBIN 0010446</td>
           </tr>
-        </table>
+        </table> */}
       </div>
       <div className="section-header">
         <h2>IMPORTANT DATES</h2>
       </div>
 
       <div className="event-container">
-        <h3 className="year">2022</h3>
+        <h3 className="year">2023</h3>
 
         <div className="event">
           <div className="event-left">
             <div className="event-date">
               <div className="date">5</div>
-              <div className="month">June</div>
+              <div className="month">December</div>
             </div>
           </div>
 
@@ -177,7 +179,7 @@ const App = () => {
       </div>
       <div>
         {" "}
-        <div
+        {/* <div
           className="section-header"
           style={{
             marginTop: "25px",
@@ -200,7 +202,7 @@ const App = () => {
               />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <Footer />
     </div>
