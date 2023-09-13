@@ -12,10 +12,10 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 ">
             <h5 className="font-weight-bold text-uppercase mb-4 text-white">
-              RAMESD
+              ISME-RAMESD
             </h5>
             <p className="text-white">
-              The main objective of RAMESD-2024 is to provide an opportunity for
+              The main objective of ISME-RAMESD 2024 is to provide an opportunity for
               leading academicians, engineers, scientists, researchers,
               industrial professionals and students from around the world to
               network and have scientific discussions on the latest developments
@@ -51,7 +51,7 @@ const Footer = () => {
                 <p>
                   <Link to="/" className="footer-link">
                     {" "}
-                    RAMESD
+                    ISME-RAMESD
                   </Link>
                 </p>
               </li>

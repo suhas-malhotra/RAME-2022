@@ -18,21 +18,21 @@ const Navbar = () => {
           width="60"
           height="60"
           class="d-inline-block align-top ml-2"
-          alt="Rame'22"
+          alt="Rame'24"
         />
         <img
           src={DTULogo}
           width="70"
           height="60"
           class="d-inline-block align-top "
-          alt="Rame'22"
+          alt="Rame'24"
         />
         <img
           src={Logo}
           width="60"
           height="60"
           class="d-inline-block align-top ml-2"
-          alt="Rame'22"
+          alt="Rame'24"
         />
 
         <img
@@ -40,7 +40,7 @@ const Navbar = () => {
           width="60"
           height="60"
           class="d-inline-block align-top ml-3"
-          alt="Rame'22"
+          alt="Rame'24"
         />
       </a>
       <button
@@ -95,20 +95,6 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-        {/* <img
-          src={DTULogo}
-          width="70"
-          height="60"
-          class="d-inline-block align-top hidden"
-          alt="Rame'22"
-        />
-        <img
-          src={HBTULogo}
-          width="50"
-          height="60"
-          class="d-inline-block align-top hidden"
-          alt="Rame'22"
-        /> */}
       </div>
     </nav>
   );

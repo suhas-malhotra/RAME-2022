@@ -46,7 +46,7 @@ const App = () => {
                 <h2>Participation</h2>
               </div>
               <p className="call-for-paper-paragraph">
-                The main objective of RAMESD-2024 is to provide an opportunity
+                The main objective of ISME-RAMESD 2024 is to provide an opportunity
                 for leading academicians, engineers, scientists, researchers,
                 industrial professionals and students from around the world to
                 network and have scientific discussions on the latest
