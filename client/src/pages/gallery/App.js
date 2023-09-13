@@ -6,6 +6,7 @@ import Navbar from "../../components/layouts/Navbar";
 import "./App.css";
 import LASTYEAR from "../../components/layouts/2020imagesdata";
 import SIXTEEN from "../../components/layouts/2016imagesdata";
+import YEAR2022 from "../../components/layouts/2022imagesdata";
 import DTUPHOTOS from "../../components/layouts/dtuphotosdata";
 
 
@@ -20,6 +21,13 @@ const App = () => {
       <MovingHeader />
       <div className="container-fluid ">
         <div className="buttons">
+        <button
+            onClick={() => {
+              setImages(YEAR2022);
+            }}
+          >
+            RAME 2022
+          </button>
           <button
             onClick={() => {
               setImages(LASTYEAR);
