@@ -36,7 +36,7 @@ export default function Intro() {
             Recent Advances in Mechanical Engineering for Sustainable
             Development{" "}
           </h1>
-          <h1 style={{ fontSize: "40px" }}>(ISME-RAMESD 2024)</h1>
+          <h1 style={{ fontSize: "40px" }}>(RAMESD 2024)</h1>
           <h2>8th-9th July 2024</h2>
           <h2 className="text-center">
             <span ref={textRef}></span>
@@ -48,7 +48,7 @@ export default function Intro() {
         <a href={schedule} download>
           Invitation
         </a>{" "}
-        to all the stackholders of the ISME-RAMESD 2024
+        to all the stackholders of the RAMESD 2024
       </h1>
     </div>
   );
