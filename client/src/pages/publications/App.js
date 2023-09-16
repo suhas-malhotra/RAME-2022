@@ -7,7 +7,11 @@ import Footer from "../../components/layouts/Footer";
 import img1 from "../../assets/img/publi1.jpg";
 import img2 from "../../assets/img/publi2.jpg";
 import img3 from "../../assets/img/2016.jpeg";
-
+import Picture1 from "../../assets/img/paper/Picture1.png";
+import Picture2 from "../../assets/img/paper/Picture2.jpg";
+import Picture3 from "../../assets/img/paper/Picture3.png";
+import Picture4 from "../../assets/img/paper/Picture4.png";
+import Picture5 from "../../assets/img/paper/Picture5.png";
 import "./App.css";
 
 const App = () => {
@@ -63,7 +67,47 @@ const App = () => {
               <h2 className="mt-4">Previous Publication</h2>
             </div>
           </div>
-          <div className="col-12 col-md-4 mb-4">
+          <div className="col-12 col-md-3 mb-4">
+            <img
+              src={Picture1}
+              alt=""
+              className="img-fluid"
+              style={{ height: "250px" }}
+            />
+          </div>
+          <div className="col-12 col-md-3 mb-4">
+            <img
+              src={Picture2}
+              alt=""
+              className="img-fluid"
+              style={{ height: "250px" }}
+            />
+          </div>
+          <div className="col-12 col-md-3 mb-4">
+            <img
+              src={Picture3}
+              alt=""
+              className="img-fluid"
+              style={{ height: "250px" }}
+            />
+          </div>
+          <div className="col-12 col-md-3 mb-4">
+            <img
+              src={Picture4}
+              alt=""
+              className="img-fluid"
+              style={{ height: "250px" }}
+            />
+          </div>
+          <div className="col-12 col-md-3 mb-4">
+            <img
+              src={Picture5}
+              alt=""
+              className="img-fluid"
+              style={{ height: "250px" }}
+            />
+          </div>
+          <div className="col-12 col-md-3 mb-4">
             <img
               src={img1}
               alt=""
@@ -71,7 +115,7 @@ const App = () => {
               style={{ height: "250px" }}
             />
           </div>
-          <div className="col-12 col-md-4 mb-4">
+          <div className="col-12 col-md-3 mb-4">
             <img
               src={img2}
               alt=""
@@ -79,7 +123,7 @@ const App = () => {
               style={{ height: "250px" }}
             />
           </div>
-          <div className="col-12 col-md-4 mb-4">
+          <div className="col-12 col-md-3 mb-4">
             <img
               src={img3}
               alt=""
