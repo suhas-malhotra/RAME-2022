@@ -26,11 +26,11 @@ const App = () => {
                 The main topics of the conference have been classified into the
                 following four categories:
                 <span className="points">
-                  <br /> • Material Science Development <br />
-                  • Manufacturing Advances
-                  <br /> • Thermal Engineering <br />
-                  • Design Engineering <br />
-                  • Industrail Engineering <br />
+                  <br /> Track 1 - Material Science Development <br />
+                  Track 2 - Manufacturing Advances
+                  <br /> Track 3 - Thermal Engineering <br />
+                  Track 4 - Design Engineering <br />
+                  Track 5 - Industrail Engineering <br />
                 </span>
                 In addition to the above any other topic relevant to the theme
                 of the conference shall be welcomed.
@@ -46,12 +46,12 @@ const App = () => {
                 <h2>Participation</h2>
               </div>
               <p className="call-for-paper-paragraph">
-                The main objective of ISME-RAMESD 2024 is to provide an opportunity
-                for leading academicians, engineers, scientists, researchers,
-                industrial professionals and students from around the world to
-                network and have scientific discussions on the latest
-                developments in the fields of Mechanical engineering. It shall
-                provide a platform for communication among them on a wide
+                The main objective of ISME-RAMESD 2024 is to provide an
+                opportunity for leading academicians, engineers, scientists,
+                researchers, industrial professionals and students from around
+                the world to network and have scientific discussions on the
+                latest developments in the fields of Mechanical engineering. It
+                shall provide a platform for communication among them on a wide
                 variety of scientific areas with a common interest in nurturing
                 the recent advances in Mechanical Engineering. The conference is
                 expected to have participation of about 200 papers from 750

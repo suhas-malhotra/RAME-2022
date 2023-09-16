@@ -15,11 +15,11 @@ const Footer = () => {
               ISME-RAMESD
             </h5>
             <p className="text-white">
-              The main objective of ISME-RAMESD 2024 is to provide an opportunity for
-              leading academicians, engineers, scientists, researchers,
-              industrial professionals and students from around the world to
-              network and have scientific discussions on the latest developments
-              in the fields of Mechanical engineering.
+              The main objective of ISME-RAMESD 2024 is to provide an
+              opportunity for leading academicians, engineers, scientists,
+              researchers, industrial professionals and students from around the
+              world to network and have scientific discussions on the latest
+              developments in the fields of Mechanical engineering.
             </p>
           </div>
 
@@ -130,9 +130,15 @@ const Footer = () => {
         <ul className="student_names">
           <a
             href="http://www.linkedin.com/in/suhas-malhotra-dtu"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             Suhas Malhotra
+          </a>
+          <a
+             href="https://www.linkedin.com/in/aditya-teltia-a9a7731b4/"
+            target="_blank" rel="noreferrer"
+          >
+            Aditya Teltia
           </a>
         </ul>
       </div>

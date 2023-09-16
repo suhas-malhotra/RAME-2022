@@ -22,11 +22,19 @@ export default function Intro() {
     <div>
       <div className="intro" id="intro">
         <div className="wrapper">
-          <h1> International Conference</h1>
+          <h1>
+            22<sup>nd</sup> ISME
+          </h1>
+          <h1>&</h1>
+          <h1>
+            {" "}
+            4<sup>th</sup> International Conference
+          </h1>
           <h1> on </h1>
           <h1 style={{ fontSize: "40px" }}>
             {" "}
-            Recent Advances in Mechanical Engineering for Sustainable Development{" "}
+            Recent Advances in Mechanical Engineering for Sustainable
+            Development{" "}
           </h1>
           <h1 style={{ fontSize: "40px" }}>(ISME-RAMESD 2024)</h1>
           <h2>8th-9th July 2024</h2>
